@@ -1,0 +1,75 @@
+/* footer container */
+.footerContainer {
+  display:block;
+  position:relative;
+}
+
+/* Style the footer navigation menu background to black */
+.bottomNavBlack {
+  overflow: hidden;
+  bottom: -107px;
+  background-color: #000000;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 88px;
+}
+/* make the footer menu to center */
+.menuBlack {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* restyle the footer menu to horizontal list */
+.menuBlack li {
+ display: inline;
+ margin: 25px;
+}
+
+/* style the footer menu word to white */
+.footerMenuItem {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style the navigation menu background white */
+.bottomNavWhite {
+	overflow: hidden;
+	bottom: -153px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	background-color: #FFFFFF;
+	height: 55px;
+}
+.menuWhite {
+	position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.menuWhite li{
+ display: inline;
+ margin-right: 40px;
+}
+
+/*
+.menuItemWhite1{
+ position: fixed;
+ left: 40px;
+ bottom: 23px;
+}
+.menuItemWhite2{
+ position: fixed;
+ right: 40px;
+ bottom: 23px;
+}
+*/
+
+#menuItemWhiteLink{
+ color: #000000;
+ text-decoration: none;
+}

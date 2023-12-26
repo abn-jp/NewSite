@@ -1,0 +1,53 @@
+/* style for recruit background */
+.bgRecruit-Container {
+	max-width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 119px;
+}
+
+/* style for button */
+.entryButton {
+	position: relative;
+	left: 74%;
+	width: 381px;
+	height: 70px;
+	background-image:linear-gradient(to right, #C8F9DB,#C0EFDF,#98BEFC);
+	font-size: 50px;
+	font-family: Poppins;
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.entryButtonjp {
+	position: absolute;
+	top: 50%;
+	left: 95%;
+	width: 300px;
+	height: 70px;
+	background-color: white;
+	color: black;
+	font-size: 24px;
+	font-family: Poppins;
+	font-weight: 500;
+	word-wrap: break-word
+}
+
+/* style for button place */
+.buttonContainer {
+	position: absolute;
+    top: 27%;
+    left: 60%;
+}
+
+/* style for button hyperlink */
+.buttonContainer a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding-left: 25px;
+	height: 100%;
+	width:100%;
+}

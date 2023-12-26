@@ -1,0 +1,60 @@
+.container {
+  position:absolute;
+  text-align: center;
+}
+
+.oval {
+  width: 795px;
+  height: 325px;
+  border: none;
+  border-radius: 226px;
+  background: #FFFFFF
+}
+
+.opacity43 {
+ opacity: 0.43;
+}
+
+.ovalCenterLeft {
+  position: absolute;
+  top: 10%;
+  left: 6%;
+}
+
+.iconCenterLeft {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.centerLeft{
+  font-size: 35px;
+  position: absolute;
+  top: 53%;
+  left: 33%;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 3%;
+  left : 1%;
+
+}
+
+.decorationNone {
+  text-decoration:none
+}
+
+/* Asian Business Network */
+.asianBusinessNetwork{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 23px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}

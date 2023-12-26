@@ -1,0 +1,172 @@
+/* Style the navigation menu */
+.topNav {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 119px;
+  top: 0px;
+  z-index:1;
+  right: 15px;
+}
+
+/* Style the logo) */
+.logo {
+  position: absolute;
+left: 2.08%;
+right: 83.44%;
+top: 18.33%;
+bottom: 18.37%;
+ }
+
+/* Style the hamburger menu */
+/* hide the checkbox */
+#menuToggle {
+  opacity: 0;
+  position: fixed;
+  right: 4px;
+  width: 95px;
+  height: 102px;
+  cursor:pointer;
+}
+#menuToggle:checked{
+  opacity: 0;
+  position: fixed;
+  right: 13px;
+  width: 95px;
+  height: 102px;
+  z-index:1;
+}
+
+
+/* when checked rotate the line to make cross */
+#menuToggle:checked + .menuBtn > .menuList {
+  transform: rotate(45deg);
+}
+#menuToggle:checked + .menuBtn > .menuList::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menuToggle:checked + .menuBtn > .menuList::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* when clicked show the list */
+#menuToggle:checked ~ .menuBox {
+  right: 0 !important;
+}
+
+/* hamburger menu button side-bar */
+#hamburgerMenu {
+  position: fixed;
+  top: 0px;
+  right: 16px;
+  width: 140px;
+  height: 119px;
+  box-shadow: -1px 0px 0px 0px black;
+}
+/* Style the hamburger menu button */
+.menuBtn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 40px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Style the hamburger menu line */
+.menuBtn > .menuList,
+.menuBtn > .menuList::before,
+.menuBtn > .menuList::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.menuBtn > .menuList::before {
+  content: '';
+  top: -16px;
+}
+.menuBtn > .menuList::after {
+  content: '';
+  top: 16px;
+}
+
+/* Style the hamburger menu list */
+/* hide the hamburger menu list */
+.menuBox {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+}
+
+/* Style the hamburger menu list when show item list */
+.menuItem {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+/* Hamburger menu list background color */
+.menuItem:hover {
+  background-color: #CFD8DC;
+}
+
+.onclickMenu{
+	cursor:pointer;
+}
+
+/* clicking on label should toggle the menu */
+.onclickMenu:focus {
+ 	pointer-events: pointer;
+}
+
+/*  opacity is 1 in opened state (see below) */
+.onclickMenu:focus .onclickMenuContent {
+    opacity: 1;
+    visibility: visible;
+    display: inherit;
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+
+/* use opacity to fake immediate toggle */
+.onclickMenuContent {           
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+.onclickMenuContent li{
+    list-style: none;
+    padding: 12px 24px;
+}
+
+.hamburgerSubMenu {
+	text-decoration: none;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    position: relative;
+    right: 30px;
+}

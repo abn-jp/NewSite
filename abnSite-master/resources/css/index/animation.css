@@ -1,0 +1,20 @@
+/* fadeIn 5s animation */
+.fadeIn5s {
+  animation: fadeIn5s 5s; 
+}
+@keyframes fadeIn5s {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* fadeIn 10s animation */
+.fadeIn10s {
+  animation: fadeIn10s 10s; 
+}
+@keyframes fadeIn10s {
+  0% { opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+

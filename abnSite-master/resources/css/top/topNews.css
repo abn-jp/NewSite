@@ -1,0 +1,9 @@
+/* style for News background */
+.bgNews-Container {
+	max-width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 119px;
+}
+

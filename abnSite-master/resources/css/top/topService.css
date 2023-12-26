@@ -1,0 +1,66 @@
+/* style for service background */
+.bgService-Container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	z-index: 0;
+	top: 119px;
+}
+
+/* style for content container place */
+/* ses content */
+.sesContainer {
+	text-align: center;
+	position: absolute;
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	top: 20%;
+    left: 20%;
+	color: black;
+	font-size: 32px;
+	font-family: Poppins;
+	word-wrap: break-word
+}
+
+.mediaContainer {
+	text-align: center;
+	position: absolute;
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	top: 30%;
+    left: 42%;
+	color: black;
+	font-size: 32px;
+	font-family: Poppins;
+	font-weight: 500;
+	word-wrap: break-word
+}
+.offshoreContainer {
+	text-align: center;
+	position: absolute;
+	max-width: 100%;
+	margin: auto;
+	display: block;
+	top: 40%;
+    left: 64%;
+	color: black;
+	font-size: 32px;
+	font-family: Poppins;
+	font-weight: 500;
+	word-wrap: break-word
+}
+
+/* word color */
+.bgService-Container div ul ul a {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* image size */
+.bgService-Container div ul ul a img {
+	max-width: 430px;
+    max-height: 230px;
+    position: relative;
+}
