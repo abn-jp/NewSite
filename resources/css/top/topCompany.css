@@ -1,13 +1,14 @@
 /* style for company background */
-.companyTitleContainer{
-  width: 100%;
-  position:relative;
-  margin: auto;
-  z-index: 0;
-  top: 119px;
-  background-image:linear-gradient(to right, #7497BF,#234874,#5D7896);
-  color: white;
-  height: 90px;
+.companyTitleContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 71px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    height: 120px;
+    padding: 20px 30px;
 }
 
 /* .bgCompany-Img{
@@ -15,65 +16,87 @@
 } */
 /* style for company content ul */
 
-.companyTitleContainer #comEng{
-  font-size: 48px;
-  position: absolute;
-  top: -25px;
+.companyTitleContainer #comEng {
+    font-size: 48px;
 }
 
-.companyTitleContainer #comJp{
-  font-size: 24px;
-  position: absolute;
-  top: 20px;
-  left: 249px;
+.companyTitleContainer #comJp {
+    font-size: 24px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 36px;
+    left: 249px;
 }
 
 .companyTitleContainer .contentCompany ul {
-  list-style-type: none;
-  position: absolute;
- }
+    list-style-type: none;
+    position: absolute;
+}
 
 /* style for company content */
-.contentCompanyContainer{
-  width: 100%;
+.contentCompanyContainer {
+    width: 100%;
     position: relative;
     margin: auto;
     z-index: 0;
     height: 408px;
-    top: 99px;
+    color: white;
 }
 
 .contentCompany {
-  margin: auto;
-  position: absolute;
-  top: 21%;
-  left: 22%;
-  width: 100%;
-  list-style-type: none;
- }
+    margin: auto;
+    position: absolute;
+    top: 21%;
+    width: 100%;
+    list-style-type: none;
+}
 
 .contentCompany ul {
-  list-style-type: none;
-  position: absolute;
+    list-style-type: none;
+    padding-left: 0px;
+    /* position: absolute; */
 }
 
-#buttonCompanyContainer{
-  width: 192px;
-  height: 64px;
-  background: #A2ABFB;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  border: 1px white solid;
-  display: flex;
-  justify-content: center;
-  position: relative;
+.contentCompany__li {
+    width: 650px;
+    text-align: center;
+}
+
+.contentCompany__li__text {
+    width: 1000px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#buttonCompanyContainer {
+    width: 192px;
+    height: 64px;
+    background: #a2abfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 #buttonCompanyContainer #buttonCompany {
-  color: black;
-  font-size: 32px;
-  font-family: Poppins;
-  font-weight: 400;
-  text-decoration: none;
-  position: absolute;
-  top: 16%;
+    color: black;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 16%;
+}
+
+/* TODO メディアクエリ */
+@media screen and (max-width: 1024px) {
+    .contentCompany {
+        margin: auto;
+        position: absolute;
+        top: 21%;
+        left: 0%;
+        width: 100%;
+        list-style-type: none;
+    }
 }
