@@ -4,11 +4,10 @@
     position: relative;
     margin: auto;
     z-index: 0;
-    top: 71px;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgba(255, 255, 255, 1);
-    height: 120px;
-    padding: 20px 30px;
+    top: 119px;
+    background-image: linear-gradient(to right, #7497bf, #234874, #5d7896);
+    color: white;
+    height: 90px;
 }
 
 /* .bgCompany-Img{
@@ -18,13 +17,14 @@
 
 .companyTitleContainer #comEng {
     font-size: 48px;
+    position: absolute;
+    top: -25px;
 }
 
 .companyTitleContainer #comJp {
     font-size: 24px;
-    vertical-align: bottom;
     position: absolute;
-    bottom: 36px;
+    top: 20px;
     left: 249px;
 }
 
@@ -40,32 +40,21 @@
     margin: auto;
     z-index: 0;
     height: 408px;
-    color: white;
+    top: 99px;
 }
 
 .contentCompany {
     margin: auto;
     position: absolute;
     top: 21%;
+    left: 22%;
     width: 100%;
     list-style-type: none;
 }
 
 .contentCompany ul {
     list-style-type: none;
-    padding-left: 0px;
-    /* position: absolute; */
-}
-
-.contentCompany__li {
-    width: 650px;
-    text-align: center;
-}
-
-.contentCompany__li__text {
-    width: 1000px;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
 }
 
 #buttonCompanyContainer {
@@ -87,16 +76,4 @@
     text-decoration: none;
     position: absolute;
     top: 16%;
-}
-
-/* TODO メディアクエリ */
-@media screen and (max-width: 1024px) {
-    .contentCompany {
-        margin: auto;
-        position: absolute;
-        top: 21%;
-        left: 0%;
-        width: 100%;
-        list-style-type: none;
-    }
 }
