@@ -31,6 +31,7 @@ body {
     border-radius: 5px;
     background-color: #777777;
 }
+
 .arrow::before {
     content: "";
     position: absolute;
@@ -43,6 +44,7 @@ body {
     background-color: #777777;
     transform: rotate(-45deg);
 }
+
 .arrow::after {
     content: "";
     position: absolute;
@@ -54,4 +56,15 @@ body {
     border-radius: 5px;
     background-color: #777777;
     transform: rotate(45deg);
+}
+
+.titleContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 71px;
+    height: 120px;
+    padding: 20px 30px;
+    color: #000000;
 }
