@@ -29,7 +29,7 @@ body {
     width: 50px;
     height: 10px;
     border-radius: 5px;
-    background-color: #1e88e5;
+    background-color: #777777;
 }
 .arrow::before {
     content: "";
@@ -40,7 +40,7 @@ body {
     width: 25px;
     height: 10px;
     border-radius: 5px;
-    background-color: #fdd835;
+    background-color: #777777;
     transform: rotate(-45deg);
 }
 .arrow::after {
@@ -52,6 +52,6 @@ body {
     width: 25px;
     height: 10px;
     border-radius: 5px;
-    background-color: #e53935;
+    background-color: #777777;
     transform: rotate(45deg);
 }
