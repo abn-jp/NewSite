@@ -1,0 +1,85 @@
+/* .aaa {
+    display: flex;
+    align-items: flex-end;
+} */
+
+.positionTitleContainer__comEng {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.positionTitleContainer__comJp {
+    font-size: 24px;
+    vertical-align: bottom;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #234874;
+}
+
+.comtemtsContainer {
+    height: 80%;
+    width: 100%;
+    top: 50%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.positionsContainer {
+    position: relative;
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "poppins";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.positionsContainer #Eng {
+    color: #15a878;
+}
+
+.positionsContainer #Jpn {
+    color: #de0d03;
+}
+
+.possition__btn__over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    font-weight: bold;
+    color: #000000;
+    font-size: 32px;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.possition__btn__over__message {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+}
+
+/* TODO メディアクエリ */
+@media screen and (max-width: 1024px) {
+    .comtemtsContainer {
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        padding: 0px 40px;
+    }
+
+    .positionsContainer {
+        position: relative;
+        height: 150px;
+        width: 90%;
+        text-align: center;
+        font-size: 24px;
+        font-family: "poppins";
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+}
