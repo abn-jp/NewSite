@@ -21,6 +21,7 @@ body {
 
 .link {
     text-decoration: none;
+    color: #000000;
 }
 
 .arrow {
@@ -63,8 +64,7 @@ body {
     position: relative;
     margin: auto;
     z-index: 0;
-    top: 71px;
     height: 120px;
-    padding: 20px 30px;
+    padding: 100px 30px;
     color: #000000;
 }
