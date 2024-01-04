@@ -1,53 +1,432 @@
 /* style for recruit background */
+.recruitBg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../storage/bg_img/start-page_bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.recruitTitleContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 71px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    height: 120px;
+    padding: 20px 30px;
+}
+
+/* .bgrecruit-Img{
+ z-index:-1;
+} */
+/* style for recruit content ul */
+
+.recruitTitleContainer #comEng {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recruitTitleContainer #comJp {
+    font-size: 24px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 45px;
+    left: 249px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recruitTitleContainer .contentRecruit ul {
+    list-style-type: none;
+    position: absolute;
+}
+
+/* style for Recruit content */
+.contentRecruitContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    height: 408px;
+    color: white;
+}
+
+.contentRecruit {
+    margin: auto;
+    position: absolute;
+    top: 21%;
+    width: 100%;
+    list-style-type: none;
+}
+
+.contentRecruit ul {
+    list-style-type: none;
+    padding-left: 0px;
+    /* position: absolute; */
+}
+
+.contentRecruit__li {
+    width: 650px;
+    text-align: center;
+}
+
+.contentRecruit__li__text {
+    width: 1000px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#buttonRecruitContainer {
+    width: 192px;
+    height: 64px;
+    background: #a2abfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#buttonRecruitContainer #buttonCompany {
+    color: black;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 16%;
+}
+
+.recruitMessageBg {
+    width: 100%;
+    height: 100vh;
+}
+
+/* style for recruit background */
 .bgRecruit-Container {
-	max-width: 100%;
+    max-width: 100%;
     position: relative;
     margin: auto;
     z-index: 0;
     top: 119px;
 }
 
-/* style for button */
-.entryButton {
-	position: relative;
-	left: 74%;
-	width: 381px;
-	height: 70px;
-	background-image:linear-gradient(to right, #C8F9DB,#C0EFDF,#98BEFC);
-	font-size: 50px;
-	font-family: Poppins;
-	font-weight: 500;
-	text-decoration: none;
-	cursor: pointer;
+.recruitMessageTitleContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 71px;
+    height: 120px;
+    padding: 20px 30px;
+    color: #234874;
 }
 
-.entryButtonjp {
-	position: absolute;
-	top: 50%;
-	left: 95%;
-	width: 300px;
-	height: 70px;
-	background-color: white;
-	color: black;
-	font-size: 24px;
-	font-family: Poppins;
-	font-weight: 500;
-	word-wrap: break-word
+.recruitMessageTitleContainer #comEng {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.recruitMessageTitleContainer #comJp {
+    font-size: 24px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 45px;
+    left: 249px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contentRecruitMessageContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    height: 100%;
+}
+
+.contentRecruiMessage {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentRecruiMessage2 {
+    position: absolute;
+    top: 11%;
+    width: 100%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentRecruiMessage__RightSide {
+    width: 700px;
+    margin: auto 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contentRecruiMessage__RightSide2 {
+    width: 1000px;
+    vertical-align: middle;
+}
+
+.recruitMessagetext {
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recruitMessageImg {
+    text-align: center;
+}
+
+.recruitMessageComment {
+    margin: 0 auto;
+    height: 70px;
+    width: 600px;
+    text-align: center;
+    font-size: 32px;
+    display: table;
+    background-color: #15a878;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.recruitMessageComment__hope {
+    color: #db0d03;
+}
+
+.JobDescriptionTitleContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 71px;
+    height: 120px;
+    padding: 20px 30px;
+    color: #234874;
+}
+
+.JobDescriptionTitleContainer #comEng {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.JobDescriptionTitleContainer #comJp {
+    font-size: 24px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 45px;
+    left: 400px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.content__posting {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.posting__btn {
+    height: 90px;
+    width: 550px;
+}
+
+.posting__leftSide {
+    margin: auto;
+    text-align: center;
+    width: 600px;
+}
+
+.posting__RightSide {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.selectionProcessTitleContainer {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: 0;
+    top: 71px;
+    height: 120px;
+    padding: 20px 30px;
+    color: #234874;
+}
+
+.selectionProcessTitleContainer #comEng {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.selectionProcessTitleContainer #comJp {
+    font-size: 24px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 45px;
+    left: 500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.selectionProcessContentContainer {
+    margin: auto;
+    width: 100%;
+    height: 80%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.selectionProcessbox1 {
+    width: 240px;
+    height: 240px;
+    border: 5px solid rgb(21, 169, 121);
+    background-color: rgb(21, 169, 121);
+    transform: rotate(30deg);
+    border-radius: 40px;
+}
+
+.selectionProcessbox2 {
+    width: 240px;
+    height: 240px;
+    border: 5px solid rgb(103, 188, 121);
+    background-color: rgb(103, 188, 121);
+    transform: rotate(30deg);
+    border-radius: 40px;
+}
+
+.selectionProcessbox3 {
+    width: 240px;
+    height: 240px;
+    border: 5px solid rgb(153, 205, 133);
+    background-color: rgb(153, 205, 133);
+    transform: rotate(30deg);
+    border-radius: 40px;
+}
+
+.selectionProcessbox4 {
+    width: 240px;
+    height: 240px;
+    border: 5px solid rgb(219, 12, 2);
+    background-color: rgb(219, 12, 2);
+    transform: rotate(30deg);
+    border-radius: 40px;
+}
+
+.selectionProcessbox__text {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    color: #ffffff;
+    font-size: 24px;
+    transform: rotate(-30deg);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: auto 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content__posting {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.entryContainer {
+    width: 100%;
+    height: 80%;
+    padding: 0px 80px;
+}
+
+.entryContainer__LeftSide {
+    padding-top: 100px;
+}
+
+.entryContainer__RightSide {
+    text-align: center;
+}
+
+.entryContainer__text {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    font-size: 32px;
+    display: table;
+    background-color: #15a979;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.entryContainer__btn {
+    height: 120px;
+    width: 640px;
+}
+
+/* TODO メディアクエリ */
+@media screen and (max-width: 1024px) {
+    .contentRecruit {
+        margin: auto;
+        position: absolute;
+        top: 21%;
+        left: 0%;
+        width: 100%;
+        list-style-type: none;
+    }
+}
+
+/* style for button */
+/* .entryButton {
+    position: relative;
+    left: 74%;
+    width: 381px;
+    height: 70px;
+    background-image: linear-gradient(to right, #c8f9db, #c0efdf, #98befc);
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+/* .entryButtonjp {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+} */
 
 /* style for button place */
-.buttonContainer {
-	position: absolute;
+/* .buttonContainer {
+    position: absolute;
     top: 27%;
     left: 60%;
-}
+} */
 
 /* style for button hyperlink */
-.buttonContainer a {
-	display: block;
-	color: black;
-	text-decoration: none;
-	padding-left: 25px;
-	height: 100%;
-	width:100%;
-}
+/* .buttonContainer a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+    height: 100%;
+    width: 100%;
+} */
