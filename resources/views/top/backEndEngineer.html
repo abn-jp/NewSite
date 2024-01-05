@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- header css -->
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/style.scss" />
+        <link rel="stylesheet" href="../../css/common/header.css" />
+        <!-- company css -->
+        <link rel="stylesheet" href="../../css/position/positions.css" />
+        <link rel="stylesheet" href="../../css/position/backEndEngineer.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
+            integrity="sha384-fFxL8wXRpg9gVqGpY+URMtLr3fLL0WBbo4NBQ+IWwMDYjIjI5VQ46XlJm5+BUlXJ"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div>
+            <div class="topNav">
+                <!-- Logo -->
+                <a href="home.php" class="logo"
+                    ><img
+                        src="../../../storage/icon/new_logo-600x164px.png"
+                        width="200"
+                /></a>
+                <div id="hamburgerMenu"></div>
+                <!-- Hamburger Navigation Menu -->
+                <input id="menuToggle" type="checkbox" />
+                <label class="menuBtn" for="menuToggle"
+                    ><span class="menuList"></span
+                ></label>
+                <!-- Navigation links (hidden by default) -->
+                <ul class="menuBox">
+                    <li class="menuItem">
+                        <!-- Hamburger sub-menu -->
+                        <div tabindex="0" class="onclickMenu">
+                            COMPANY
+                            <ul class="onclickMenuContent">
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >ビジョン</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >ミッション</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >代表挨拶</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >会社概要</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menuItem">
+                        <div tabindex="0" class="onclickMenu">
+                            SERVICES
+                            <ul class="onclickMenuContent">
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >メディア事業</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >受託開発事業</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >SES事業</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menuItem">
+                        <div tabindex="0" class="onclickMenu">
+                            RECRUIT
+                            <ul class="onclickMenuContent">
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >業務内容</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >募集要項</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >選考フロー</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#" class="hamburgerSubMenu"
+                                        >エントリー</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="menuItem" href="#">SES PARTNER</a></li>
+                    <li><a class="menuItem" href="#">NEWS</a></li>
+                    <li><a class="menuItem" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- front end section -->
+            <div class="titleContainer">
+                <div class="frontendTitleContainer">
+                    <div class="frontendTitleContainer__comEng">
+                        Back End Engineer
+                    </div>
+                    <div class="frontendTitleContainer__comJp">
+                        バックエンドエンジニア
+                    </div>
+                </div>
+                <div class="">
+                    <a class="link" href="">TOP</a>
+                    <span>></span>
+                    <a class="link" href="">RECRUIT</a>
+                    <span>></span>
+                    <a class="link" href="">募集ポジション</a>
+                    <span>></span>
+                    <a class="link" href="">バックエンドエンジニア</a>
+                </div>
+            </div>
+            <!-- TODO 共通化したい -->
+            <div class="frontendContainer">
+                <div class="workingConditions__box mb-5">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >募集ポジション</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        ①メンバークラス：1年以上の開発実務経験。<br />
+                        ②リーダークラス：4年程度の開発経験。要件定義や設計などの上流工程の経験。<br />
+                        ※開発環境は問いません。
+                    </div>
+                </div>
+                <div class="workingConditions__box mb-5" style="height: 400px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >募集背景</span
+                        >
+                    </div>
+                    <div
+                        class="workingConditions__content border rounded"
+                        style="font-size: 22px"
+                    >
+                        『日本と世界のカケハシをつくる』この言葉を経営方針に掲げ、<br />
+                        さまざまな企業のシステム開発に携わっております。<br />
+                        <br />
+                        代表のナズムルは<br />
+                        「会社が生み出す利益よりも自分の力で雇用をつくりたい」という思いで起業。<br />
+                        働く社員のことはもちろんのこと、誰かを雇用することで、<br />
+                        その先で生活ができるようになる人がいると考えて、会社を運営しています。<br />
+                        <br />
+                        設立から13年目。現在も弊社は成長の真っ只中。<br />
+                        今後のさらなる成長を見据えて、このたび組織強化をはかることになり、<br />
+                        ITエンジニアを募集いたします。
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 2200px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >仕事内容</span
+                        >
+                    </div>
+                    <div
+                        class="workingConditions__content border rounded"
+                        style="font-size: 22px"
+                    >
+                        「エンジニアのキャリアをつくる」というミッションを掲げている弊社では、<br />
+                        エンジニアメンバーが中心になって活躍しております！<br />
+                        ＼豊富な案件の中から希望に合わせて選択可能／<br />
+                        案件選定はヒアリングから！<br />
+                        「スキルアップしたい」「要件定義が出来るPJがいい」など、<br />
+                        エンジニアとクライアント双方の希望がマッチするよう、最善を尽くします。<br />
+                        もちろん、エンジニアからの相談事は最優先で対応。<br />
+                        万が一「合わないな」と感じたら、すぐにご相談ください！<br />
+                        <br />
+                        【具体的にこんなプロジェクトがあります】<br />
+                        たとえば、<br />
+                        ①メンバークラス<br />
+                        ・ご自身のスキルとキャリアビジョンに沿ったプロジェクトをご担当いただきます。<br />
+                        ・自社サービスの開発。アジャイルで進めているので企画から携われます。<br />
+                        （※ご希望があれば）<br />
+                        ②リーダークラス<br />
+                        ・プロジェクト先でABNのエンジニアを統括するリーダーとしての動きを期待しています。<br />
+                        ・自社サービスの開発。ご自身の知見の共有や新しい技術へのチャレンジができます。<br />
+                        （※ご希望があれば）<br />
+                        <br />
+
+                        ▼お願いしたいプロジェクトの詳細<br />
+                        【ご担当いただくプロジェクト例】<br />
+                        ①メンバークラス<br />
+                        ・業界特化型メディアサイト開発<br />
+                        　PHP／FuelPHP／Laravel／JavaScript／jQuery／AWS／Docker<br />
+                        ・マッチングサイト開発<br />
+                        　PHP／Laravel／JavaScript／MySQL／AWS<br />
+                        ・印刷系企業でのtoC向けWebサイト開発<br />
+                        　Python／Django／MySQL／Apache<br />
+                        ・広告配信SDK開発<br />
+                        　Golang／AWS<br />
+                        <br />
+                        ②リーダークラス<br />
+                        ・音声SNS開発<br />
+                        　PHP／Laravel／React／Unity／MySQL／AWS<br />
+                        ・ユーザー管理システム開発<br />
+                        　Python／Django／PostgreSQL<br />
+                        ・SaaS開発<br />
+                        　Python／Django／React／JavaScript／jQuery／MySQL／AWS<br />
+                        ・大型ECモール開発<br />
+                        　Java／Spring／Javascript／Oracle／Postgres／MySQL／AWS<br />
+
+                        <br />
+                        【自社プロジェクト】<br />
+                        ■Halal Food in Japan<br />
+                        ・外国人観光客向けのWebメディアの開発・運営をしています。<br />
+                        ・運営には留学生のインターンメンバーも携わっており、ユーザー目線での運営を心がけています。<br />
+                        ・開発環境<br />
+                        　Python／Django／React／HTML／CSS／SASS／JavaScript／MySQL
+                        　／Apache／AWS（EC2,RDS,CloudFront,SES,S3）／GitHub
+                        Actions <br />
+                        <br />
+                        ■自社コーポレートサイト<br />
+                        ・自社サービスでは、やりたい設計や使ってみたい技術にどんどんチャレンジできます。<br />
+                        　やりたい企画があれば、ぜひ提案してください。一緒に形にしていきましょう。<br />
+                        ・開発環境 <br />
+                        　Python／Django／Vue.js／AWS <br />
+                        <br />
+                        現在開発中のプロジェクトは他にもあります。<br />
+                        <br />
+                        ■自社営業ツール（開発中）
+                        　Python／Django／JavaScript／AWS EC2／Caddy
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 1480px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >応募条件</span
+                        >
+                    </div>
+                    <div
+                        class="workingConditions__content border rounded"
+                        style="font-size: 22px"
+                    >
+                        【必須要件】<br />
+                        ①メンバークラス <br />
+                        ・1年以上の開発実務経験。開発環境は問いません。<br />
+                        ②リーダークラス<br />
+                        ・4年以上の開発経験。開発環境は問いません。
+                        ・要件定義や設計などの上流工程の経験（経験年数は問いません。）<br />
+                        <br />
+                        言語例 開発言語：Java／PHP／Python<br />
+                        フレームワーク：Spring／Laravel／Django／Flask<br />
+                        インフラ：AWS／GCP／Azure<br />
+                        <br />
+                        【必須要件例】<br />
+                        ①メンバークラス<br />
+                        業界特化型メディアサイト開発<br />
+                        ・PHP FuelまたはLaravalでの開発経験1年以上<br />
+                        マッチングサイト開発<br />
+                        ・Laravelでの開発1年以上<br />
+                        印刷系企業でのtoC向けWebサイト開発<br />
+                        ・Pythonでの開発経験1年以上<br />
+                        ・1人称で実装ができる開発スキル広告配信SDK開発<br />
+                        ・Golangでの開発経験1年以上<br />
+                        <br />
+
+                        ②リーダークラス<br />
+                        音声SNS開発<br />
+                        ・PHPでの開発経験3年以上<br />
+                        ・Laravelでの開発経験1年以上<br />
+                        ・基本設計からの経験<br />
+                        <br />
+                        ユーザー管理システム開発<br />
+                        ・Python／Djangoでの開発経験3年以上SaaS開発<br />
+                        ・バックエンドの開発経験4年以上（言語は問わない）<br />
+                        ・LinuxやSQLの操作経験<br />
+                        <br />
+                        大型ECモール開発 <br />
+                        ・Javaでの開発経験4年以上<br />
+                        ・Springでの開発経験<br />
+                        ・基本設計からの経験
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 80px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >雇用形態</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="workingConditions__content__message">
+                            正社員
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 184px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >勤務地</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            東京都豊島区池袋2-61-8 アゼリア青新ビル605号<br />
+                            または都内プロジェクト拠点 <br />
+                            【アクセス】<br />
+                            池袋駅徒歩8分（約550m）<br />
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 80px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >勤務時間</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="workingConditions__content__message">
+                            09:00~18:00(プロジェクト先により異なる)
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 112px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >給与</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            ①メンバークラス：400万円~600万円<br />
+                            ②リーダークラス：500万円~750万円<br />
+                            ※ご経験・スキル・前職給与を考慮して決定いたします。
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 148px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >賞与・昇給</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            ■賞与：年1回（12月）<br />
+                            ■昇給：年1~2回（6月、12月）<br />
+                            ※成果や実績により都度昇給の可能性があります。<br />
+                            ■試用期間：3ヶ月（条件等は変わりません）
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 400px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >休日・休暇</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            完全週休2日制（土日祝日休み）<br />
+                            年間有給休暇：10日~20日（下限日数は、入社半年経過後の付与日数となります）<br />
+                            （入社半年後に10日間付与)<br />
+                            年間休日：120日<br />
+                            GW<br />
+                            夏季休暇（3日）<br />
+                            特別休暇 <br />
+                            産休育休制度<br />
+                            リフレッシュ休暇 <br />
+                            育児/介護休暇<br />
+                            慶弔休暇
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 80px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >保険</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="workingConditions__content__message">
+                            社会保険完備（雇用・労災・健康・厚生年金
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 760px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >福利厚生</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            ・通勤手当（月3万円まで）
+                            ・住宅手当（1万円/本社から5km以内）<br />
+                            ・時間外勤務手当<br />
+                            ・職務手当<br />
+                            ・技術手当<br />
+                            ・家族手当<br />
+                            ・敷地内禁煙(喫煙場所有り)<br />
+                            ・書類購入補助制度<br />
+                            ・セミナー参加費支援制度<br />
+                            ・副業・独立サポート<br />
+                            ・リファラル採用報酬<br />
+                            ・資格取得支援制度<br />
+                            ・リフレッシュ休暇<br />
+                            ・育児/介護休暇<br />
+                            ・出産祝い<br />
+                            ・結婚祝い<br />
+                            ・慶弔休暇<br />
+                            ・ウェルカムランチ<br />
+                            ・チームランチ<br />
+                            ・部活<br />
+                            ・リファラルディナー<br />
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 328px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >仕事の魅力</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            【公平な評価制度】<br />
+                            毎月の1on1を実施し6月と12月に、評価の見直しを行っております。<br />
+                            お仕事の実績や取り組み方、積極性などを評価させていただいておりますので、<br />
+                            ご自身の課題についてもすり合わせでき、無理なくスキルアップできます。<br />
+                            <br />
+                            【キャリアについて】<br />
+                            技術者の希望に寄り添いながら、理想のキャリアパスが実現できるようサポートいたします。<br />
+                            キャリアに悩んだら代表や担当営業にご相談ください！<br />
+                            定期的に担当営業と面談しながら一緒に探していきましょう♪<br />
+                        </span>
+                    </div>
+                </div>
+
+                <div class="workingConditions__box mb-5" style="height: 292px">
+                    <div
+                        class="workingConditions__title border text-white rounded"
+                    >
+                        <span class="workingConditions__title__message"
+                            >社内の雰囲気</span
+                        >
+                    </div>
+                    <div class="workingConditions__content border rounded">
+                        <span class="">
+                            社員は約20名。<br />
+                            社員の中でもエンジニアメンバーが中心になっています。<br />
+                            社内は上下関係がないフラットな環境のため、代表まですぐに意見が届きます。<br />
+                            社内で感じたことや業務の改善点など、入社後あなたが気づいたり考えたことは、<br />
+                            遠慮せず先輩や代表に話してください。<br />
+                            これまでにも、紙媒体限定だった書類購入サポートがエンジニアの声から電子書籍も対象になるなど、<br />
+                            制度改善に至った例があります。<br />
+                            一緒により良い環境を作って行きましょう！
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
