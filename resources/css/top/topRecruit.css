@@ -1,4 +1,11 @@
 /* style for recruit background */
+
+.recruitSection {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
 .recruitBg {
     width: 100%;
     height: 100vh;
@@ -9,6 +16,47 @@
 
 .recruitTitleContainer {
     width: 100%;
+    margin: auto;
+    z-index: 0;
+    height: 20%;
+    padding: 80px 30px 110px;
+    color: #000000;
+}
+
+.jobDescriptionTitleContainer {
+    width: 100%;
+    z-index: 0;
+    height: 20%;
+    padding: 0px 30px 110px;
+    color: #000000;
+}
+
+.recruitTitleContainer__title {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: flex-end;
+}
+
+.otherRecruitTitleContainer__title {
+    color: #234874;
+    display: flex;
+    align-items: flex-end;
+}
+
+.recruitTitleContainer__title__comEng {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 40px;
+}
+
+.recruitTitleContainer__title__comJp {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 8px;
+}
+
+/* .recruitTitleContainer {
+    width: 100%;
     position: relative;
     margin: auto;
     z-index: 0;
@@ -17,14 +65,14 @@
     color: rgba(255, 255, 255, 1);
     height: 120px;
     padding: 20px 30px;
-}
+} */
 
 /* .bgrecruit-Img{
  z-index:-1;
 } */
 /* style for recruit content ul */
 
-.recruitTitleContainer #comEng {
+/* .recruitTitleContainer #comEng {
     font-size: 48px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -36,7 +84,7 @@
     bottom: 45px;
     left: 249px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .recruitTitleContainer .contentRecruit ul {
     list-style-type: none;
@@ -46,35 +94,38 @@
 /* style for Recruit content */
 .contentRecruitContainer {
     width: 100%;
-    position: relative;
     margin: auto;
     z-index: 0;
-    height: 408px;
+    height: 80%;
     color: white;
+    position: relative;
 }
 
 .contentRecruit {
     margin: auto;
-    position: absolute;
-    top: 21%;
     width: 100%;
+    height: 100%;
     list-style-type: none;
 }
 
 .contentRecruit ul {
     list-style-type: none;
     padding-left: 0px;
-    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .contentRecruit__li {
-    width: 650px;
+    width: 40%;
+    font-size: 24px !important;
     text-align: center;
 }
 
 .contentRecruit__li__text {
-    width: 1000px;
+    width: 70%;
     text-align: center;
+    font-size: 30px !important;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -116,12 +167,12 @@
 
 .recruitMessageTitleContainer {
     width: 100%;
-    position: relative;
+    /* position: relative; */
     margin: auto;
     z-index: 0;
-    top: 71px;
-    height: 120px;
-    padding: 20px 30px;
+    /* top: 71px; */
+    height: 20%;
+    padding: 0px 30px;
     color: #234874;
 }
 
@@ -133,64 +184,117 @@
 .recruitMessageTitleContainer #comJp {
     font-size: 24px;
     vertical-align: bottom;
-    position: absolute;
-    bottom: 45px;
+    /* position: absolute; */
+    /* bottom: 45px; */
     left: 249px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .contentRecruitMessageContainer {
     width: 100%;
-    position: relative;
     margin: auto;
     z-index: 0;
-    height: 100%;
+    height: 50%;
+}
+
+.contentRecruitMessageContainer2 {
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    height: 80%;
+}
+
+.jobDescriptionContainer {
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    /* height: 100%; */
+    height: 80%;
 }
 
 .contentRecruiMessage {
-    position: absolute;
-    top: 7%;
     width: 100%;
+    height: 100%;
     padding: 0px 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .contentRecruiMessage2 {
-    position: absolute;
-    top: 11%;
     width: 100%;
+    height: 100%;
     padding: 0px 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.contentRecruiMessage__LeftSide {
+    width: 50%;
+    height: 100%;
+    margin: auto 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contentRecruiMessage__LeftSide__img {
+    width: 90%;
+    height: 90%;
+}
+
+.JobDescription__LeftSide__img {
+    width: 90%;
+    height: 60%;
+}
+
+.contentRecruiMessage__LeftSide2 {
+    width: 50%;
+    height: 100%;
+    margin: auto 0;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .contentRecruiMessage__RightSide {
-    width: 700px;
+    width: 50%;
     margin: auto 0;
     display: table-cell;
     vertical-align: middle;
 }
 
 .contentRecruiMessage__RightSide2 {
-    width: 1000px;
+    width: 50%;
+    margin: auto 0;
+    display: table-cell;
     vertical-align: middle;
 }
 
 .recruitMessagetext {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .recruitMessageImg {
     text-align: center;
+    height: 50%;
 }
 
 .recruitMessageComment {
     margin: 0 auto;
     height: 70px;
-    width: 600px;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    display: table;
+    background-color: #15a878;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.JobDescriptionComment {
+    height: 70px;
+    width: 90%;
     text-align: center;
     font-size: 32px;
     display: table;
@@ -204,12 +308,13 @@
 
 .JobDescriptionTitleContainer {
     width: 100%;
-    position: relative;
+    /* position: relative; */
     margin: auto;
     z-index: 0;
-    top: 71px;
-    height: 120px;
-    padding: 20px 30px;
+    /* top: 71px; */
+    /* height: 120px; */
+    height: 20%;
+    padding: 0px 30px;
     color: #234874;
 }
 
@@ -220,25 +325,31 @@
 
 .JobDescriptionTitleContainer #comJp {
     font-size: 24px;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
     position: absolute;
-    bottom: 45px;
-    left: 400px;
+    /* bottom: 45px;
+    left: 400px; */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.JobDescription__LeftSide {
+    width: 50%;
+    text-align: center;
+}
+
 .content__posting {
-    position: absolute;
     width: 100%;
-    height: 80%;
+    height: 100%;
     padding: 0px 80px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .posting__btn {
     position: relative;
     height: 90px;
-    width: 550px;
+    width: 90%;
 }
 
 .posting__btn__over {
@@ -251,7 +362,7 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #000000;
-    font-size: 35px;
+    font-size: 30px;
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.6);
 }
@@ -259,11 +370,11 @@
 .posting__leftSide {
     margin: auto;
     text-align: center;
-    width: 600px;
+    width: 90%;
 }
 
 .posting__RightSide {
-    width: 600px;
+    width: 90%;
     text-align: center;
     margin: auto;
 }
@@ -298,14 +409,17 @@
     width: 100%;
     height: 80%;
     padding: 0px 80px;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .selectionProcessbox1 {
-    width: 240px;
-    height: 240px;
+    /* width: 240px; */
+    position: relative;
+    width: 20%;
+    height: 40%;
     border: 5px solid rgb(21, 169, 121);
     background-color: rgb(21, 169, 121);
     transform: rotate(30deg);
@@ -314,7 +428,8 @@
 
 .selectionProcessbox2 {
     width: 240px;
-    height: 240px;
+    width: 20%;
+    height: 40%;
     border: 5px solid rgb(103, 188, 121);
     background-color: rgb(103, 188, 121);
     transform: rotate(30deg);
@@ -323,7 +438,9 @@
 
 .selectionProcessbox3 {
     width: 240px;
-    height: 240px;
+
+    width: 20%;
+    height: 40%;
     border: 5px solid rgb(153, 205, 133);
     background-color: rgb(153, 205, 133);
     transform: rotate(30deg);
@@ -332,7 +449,10 @@
 
 .selectionProcessbox4 {
     width: 240px;
-    height: 240px;
+    /* width: 12%;
+    height: 240px; */
+    width: 20%;
+    height: 40%;
     border: 5px solid rgb(219, 12, 2);
     background-color: rgb(219, 12, 2);
     transform: rotate(30deg);
@@ -340,25 +460,18 @@
 }
 
 .selectionProcessbox__text {
+    position: absolute;
     text-align: center;
-    width: 240px;
-    height: 240px;
+    width: 100%;
+    height: 100%;
     color: #ffffff;
     font-size: 24px;
+    font-size: 1rem;
     transform: rotate(-30deg);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: auto 0;
     display: table-cell;
     vertical-align: middle;
-}
-
-.content__posting {
-    position: absolute;
-    width: 100%;
-    height: 80%;
-    padding: 0px 80px;
-    display: flex;
-    justify-content: center;
 }
 
 .entryContainer {
@@ -367,17 +480,15 @@
     padding: 0px 80px;
 }
 
-.entryContainer__LeftSide {
-    padding-top: 100px;
-}
-
 .entryContainer__RightSide {
     text-align: center;
 }
 
 .entryContainer__text {
-    height: 70px;
-    width: 300px;
+    /* height: 70px; */
+    height: 20%;
+    /* width: 300px; */
+    width: 20%;
     text-align: center;
     font-size: 32px;
     display: table;
@@ -386,12 +497,12 @@
 }
 
 .entryContainer__btn {
-    height: 120px;
-    width: 640px;
+    height: 90px;
+    width: 40%;
 }
 
 /* TODO メディアクエリ */
-@media screen and (max-width: 1024px) {
+@media not all and (min-width: 1024px) {
     .contentRecruit {
         margin: auto;
         position: absolute;
@@ -400,7 +511,30 @@
         width: 100%;
         list-style-type: none;
     }
+
+    .recruitMessagetext {
+        font-size: 20px;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .selectionProcessbox1 {
+        width: 30%;
+    }
+
+    .contentRecruit__li {
+        font-size: large !important;
+    }
+
+    .contentRecruit__li__text {
+        font-size: 30px !important;
+    }
 }
+
+/* height: 100%;
+width: 100%;
+top: 20%;
+position: absolute; */
 
 /* style for button */
 /* .entryButton {
