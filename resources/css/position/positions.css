@@ -1,8 +1,3 @@
-/* .aaa {
-    display: flex;
-    align-items: flex-end;
-} */
-
 .positionTitleContainer__comEng {
     font-size: 48px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -19,7 +14,7 @@
 }
 
 .comtemtsContainer {
-    height: 80%;
+    height: 75%;
     width: 100%;
     top: 50%;
     padding: 0px 80px;
@@ -30,8 +25,9 @@
 .positionsContainer {
     position: relative;
     width: 30%;
+    height: 50%;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "poppins";
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 }
@@ -61,7 +57,12 @@
     margin: 0 auto;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 20%;
+}
+
+.positionsMessageImg {
+    width: 70%;
+    height: 60%;
 }
 
 /* TODO メディアクエリ */
