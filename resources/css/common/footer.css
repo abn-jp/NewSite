@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.footerContainer {
+    bottom: 0;
+}
+
 /* Style the footer navigation menu background to black */
 .bottomNavBlack {
     overflow: hidden;
@@ -13,8 +17,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 88px;
+    height: 95px;
 }
+
 /* make the footer menu to center */
 .menuBlack {
     display: flex;
