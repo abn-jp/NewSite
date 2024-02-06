@@ -1,0 +1,218 @@
+.topSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../storage/bg_img/company_bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+}
+
+.topTitleContainer {
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    height: 20%;
+    padding: 8% 30px 0%;
+    color: #000000;
+}
+
+.topTitleContainer__title {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: flex-end;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.topTitleContainer__title__comEng {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 40px;
+}
+
+.topTitleContainer__title__comJp {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 8px;
+}
+
+.contentTopContainer {
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    height: 80%;
+    position: relative;
+}
+
+.contentTop__text {
+    width: 100%;
+    padding: 0% 10%;
+    text-align: center;
+    font-size: 20px !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    position: absolute;
+    top: 10%;
+    font-family: "Poppins";
+}
+
+.contentTop__headline {
+    padding-bottom: 2%;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.contentTop__headline__red {
+    color: #dd0d03;
+}
+
+.contentTopCompany {
+    width: 100%;
+    padding: 0% 10% 0% 20%;
+    font-size: 20px !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    position: absolute;
+    top: 25%;
+    font-family: "Poppins";
+}
+
+.contentTopCompany__headline {
+    font-size: 32px;
+    padding-left: 3%;
+}
+
+.contentTopCompany__text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contentTopRecruit {
+    width: 100%;
+    height: 80%;
+    padding: 2% 10% 0% 20%;
+    font-size: 20px !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    position: absolute;
+    font-family: "Poppins";
+}
+
+.contentTopRecruit__headline {
+    font-size: 28px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+}
+
+.contentTopRecruit__button {
+    display: flex;
+    justify-content: flex-end;
+    height: 15%;
+    margin-bottom: 10%;
+}
+
+.contentTopRecruit__button--btn {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    font-size: 30px;
+    width: 30%;
+    height: 100%;
+    background-color: #234874;
+    position: relative;
+}
+
+.contentTopRecruit__button--top {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    bottom: -35%;
+    left: 20%;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.contentTopRecruit__text {
+    height: 100%;
+}
+
+.contentTopRecruit__text__top {
+    border: solid #234874;
+    width: 75%;
+    background-color: #234874;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: -5%;
+}
+
+.contentTopRecruit__text__bottom {
+    width: 85%;
+    height: 40%;
+    border-radius: 30px;
+    color: #000000;
+    background-color: #d9d9d9;
+    padding: 2%;
+    padding-top: 10%;
+    font-size: 12px;
+    position: relative;
+}
+
+.buttonCompanyContainer {
+    margin-left: 3%;
+    width: 192px;
+    height: 64px;
+    background: #a2abfb;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.buttonCompanyContainer .buttonCompany {
+    color: black;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-decoration: none;
+    position: absolute;
+    top: 16%;
+}
+
+.contentTopBusiness {
+    padding: 0% 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins";
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+}
+
+.contentTopBusiness__Element__1 {
+    width: 100%;
+    text-align: center;
+}
+
+.contentTopBusiness__Element__2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.contentTopBusiness__Element__3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.contentTopBusiness__Element__img {
+    width: 80%;
+}
