@@ -9,11 +9,16 @@
 }
 
 /* Style the footer navigation menu background to black */
+.buttonBlock {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
 .bottomNavBlack {
     overflow: hidden;
-    bottom: -107px;
     background-color: #000000;
-    position: relative;
+    color: #ffffff;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -42,13 +47,12 @@
 /* Style the navigation menu background white */
 .bottomNavWhite {
     overflow: hidden;
-    bottom: -153px;
-    position: absolute;
     display: block;
     width: 100%;
-    background-color: #ffffff;
-    height: 55px;
+    height: 30px;
+    font-family: "Poppins";
 }
+
 .menuWhite {
     position: relative;
     display: flex;
@@ -59,6 +63,11 @@
 .menuWhite li {
     display: inline;
     margin-right: 40px;
+}
+
+.menuItem {
+    font-size: 16px;
+    color: #ffffff;
 }
 
 /*
