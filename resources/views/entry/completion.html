@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+        />
+        <meta name="description" content="A Simple Full Page Scroll" />
+        <!-- meta end -->
+
+        <!-- header css -->
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+        <link rel="stylesheet" href="../../css/common/header.css" />
+        <link rel="stylesheet" href="../../css/common/footer.css" />
+        <!-- company css -->
+        <link rel="stylesheet" href="../../css/entry/completion.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
+            integrity="sha384-fFxL8wXRpg9gVqGpY+URMtLr3fLL0WBbo4NBQ+IWwMDYjIjI5VQ46XlJm5+BUlXJ"
+            crossorigin="anonymous"
+        />
+    </head>
+</html>
+
+<body>
+    <div>
+        <div class="topNav">
+            <!-- Logo -->
+            <a href="home.php" class="logo"
+                ><img
+                    src="../../../storage/icon/new_logo-600x164px.png"
+                    width="200"
+            /></a>
+            <div id="hamburgerMenu"></div>
+            <!-- Hamburger Navigation Menu -->
+            <input id="menuToggle" type="checkbox" />
+            <label class="menuBtn" for="menuToggle"
+                ><span class="menuList"></span
+            ></label>
+            <!-- Navigation links (hidden by default) -->
+            <ul class="menuBox">
+                <li class="menuItem">
+                    <!-- Hamburger sub-menu -->
+                    <div tabindex="0" class="onclickMenu">
+                        COMPANY
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ビジョン</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ミッション</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >代表挨拶</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >会社概要</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        SERVICES
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >メディア事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >受託開発事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu">SES事業</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        RECRUIT
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >業務内容</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >募集要項</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >選考フロー</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >エントリー</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="menuItem" href="#">SES PARTNER</a></li>
+                <li><a class="menuItem" href="#">NEWS</a></li>
+                <li><a class="menuItem" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="entrySection">
+        <div class="entryTitleContainer">
+            <div class="entryTitleContainer__title">
+                <div class="entryTitleContainer__title__comEng">ENTRY</div>
+                <div class="entryTitleContainer__title__comJp">エントリー</div>
+            </div>
+            <div class="">
+                <a class="link" href="">TOP</a>
+                <span>></span>
+                <a class="link" href="">RECRUIT</a>
+                <span>></span>
+                <a class="link" href="">ENTRY</a>
+            </div>
+        </div>
+        <div class="entryContentContainer">
+            <div class="completionContentContainer__gratitude">
+                <div class="font-size32 green">Thank You!</div>
+                <div class="gray">
+                    エントリーいただき、誠にありがとうございます。
+                </div>
+            </div>
+            <div class="entryContentContainer__guid">
+                <span class="entryInputIcon__green border text-white rounded"
+                    >入力</span
+                >
+                <span>→</span>
+                <span class="entryInputIcon__green border text-white rounded"
+                    >内容確認</span
+                >
+                <span>→</span>
+                <span class="entryInputIcon__red border text-white rounded">
+                    完了
+                </span>
+            </div>
+            <!-- phpで入力された値を持たせるようにする -->
+            <div class="completionContentContainer__info border">
+                <div>
+                    ご記入いただいた情報は無事送信されました。<br />
+                    改めて担当者よりご連絡を差し上げます。<br />
+                    今しばらくお待ちくださいませ。<br />
+                </div>
+            </div>
+            <div class="entryContentContainer__confimation__button__block">
+                <button class="entryContentContainer__completeButton">
+                    TOPへ
+                </button>
+            </div>
+        </div>
+        <!-- fotters -->
+        <div class="buttonBlock">
+            <div class="bottomNavBlack">
+                <ul class="menuBlack">
+                    <li><a class="menuItem" href="#">Company</a></li>
+                    <li><a class="menuItem" href="#">Services</a></li>
+                    <li><a class="menuItem" href="#">Recruit</a></li>
+                    <li><a class="menuItem" href="#">SES Partner</a></li>
+                    <li><a class="menuItem" href="#">News</a></li>
+                    <li><a class="menuItem" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="bottomNavWhite">
+                <ul class="menuWhite">
+                    <li>
+                        <a href="#" id="menuItemWhiteLink"
+                            >個人情報の取り扱いについて</a
+                        >
+                    </li>
+                    <li>© 2024 株式会社アジアンビジネスネットワーク</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
