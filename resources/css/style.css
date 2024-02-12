@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .bodyContainer {
     position: relative;
     width: 100%;
@@ -11,6 +12,17 @@ body {
     scroll-snap-type: y mandatory;
     display: block;
 }
+
+.bodyEntryContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    display: block;
+}
+
 .section {
     width: 100%;
     height: 100vh;
@@ -76,4 +88,12 @@ body {
 
 .red {
     color: #de0d03;
+}
+
+.gray {
+    color: #666666;
+}
+
+.font-size32 {
+    font-size: 48px;
 }
