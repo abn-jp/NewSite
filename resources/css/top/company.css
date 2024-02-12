@@ -1,0 +1,240 @@
+.topSection {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(../../../storage/bg_img/company_bg1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+}
+
+.overviewSection {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(../../../storage/bg_img/company_bg1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.contentCompanyContainer {
+    width: 100%;
+    z-index: 0;
+    padding-top: 100px;
+    height: 80%;
+    font-family: "Poppins";
+    position: relative;
+}
+
+.contentCompanyContainer__link {
+    margin-bottom: 3%;
+}
+
+.contentCompanyContainer__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    font-style: italic;
+}
+
+.contentCompanyContainer__top__left {
+    border: solid #234874;
+    border-radius: 0px 10px 10px 0px;
+    width: 20%;
+    height: 10%;
+    background-color: #234874;
+    color: #ffffff;
+    /* font-size: 28px; */
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.contentCompanyContainer__top__right {
+    border: solid #234874;
+    border-radius: 10px 0px 0px 10px;
+    width: 20%;
+    height: 10%;
+    background-color: #234874;
+    color: #ffffff;
+    /* font-size: 28px; */
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.contentCompanyContainer__top__middle {
+    color: #dd0d03;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7vmin;
+}
+
+.contentCompanyContainer__bottom {
+    text-align: center;
+    font-style: italic;
+}
+
+.contentCompanyContainer__bottom__ideal {
+    color: #15a878;
+    font-size: 5vmin;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.contentCompanyContainer__bottom__desc {
+    font-size: 2.5vmin;
+}
+
+.missionTitleContainer {
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    height: 20%;
+    padding: 100px 30px 0%;
+    color: #000000;
+}
+
+.missionTitleContainer__title {
+    display: flex;
+    align-items: flex-end;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.missionTitleContainer__title__comEng {
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.missionTitleContainer__title__comJp {
+    font-size: 24px;
+    padding-bottom: 8px;
+}
+
+.contentMission {
+    padding: 0% 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    font-family: "Poppins";
+    font-weight: bold;
+    position: relative;
+    top: 5%;
+}
+
+.contentMission__Element__1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+    text-align: center;
+}
+
+.contentMission__Element__2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.contentMission__Element__3 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px white solid;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.contentMission__Element__img {
+    width: 80%;
+}
+
+.contentCeoContainer {
+    width: 100%;
+    z-index: 0;
+    padding: 100px 10% 0px;
+    height: 80%;
+    font-family: "Poppins";
+    position: relative;
+}
+
+.contentCeoTitle {
+    width: 50%;
+    border: 1px #ffde59 solid;
+    background-color: #ffde59;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 4vmin;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.contentCeoContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentCeoContent__left {
+    width: 15%;
+    height: 10%;
+    font-size: 3vmin;
+    text-align: center;
+    color: #ffffff;
+    border: 1px #6adefd solid;
+    background-color: #6adefd;
+}
+
+.contentCeoContent__middle {
+    width: 60%;
+    font-size: 2vmin;
+}
+
+.contentCeoContent__right {
+    width: 20%;
+}
+
+.contentCeoContent__right__img {
+    background-image: url(../../../storage/bg_img/company_bg1.jpg);
+}
+
+.contentOverviewContent {
+    padding: 0% 10%;
+    width: 100%;
+    padding-top: 100px;
+    font-family: "Poppins";
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vmin;
+}
+
+.contentOverview2Content {
+    padding: 0% 10%;
+    width: 100%;
+    height: 80%;
+    padding-top: 100px;
+    font-family: "Poppins";
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abn__mao {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.green {
+    color: #15a979;
+}

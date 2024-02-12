@@ -1,25 +1,322 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="../../css/top/topCompany.css">
-</head>
+    <head>
+        <!-- meta -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+        />
+        <meta name="description" content="A Simple Full Page Scroll" />
+        <!-- meta end -->
+
+        <!-- header css -->
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/style.scss" />
+        <link rel="stylesheet" href="../../css/common/header.css" />
+        <link rel="stylesheet" href="../../css/common/footer.css" />
+        <!-- company css -->
+        <link rel="stylesheet" href="../../css/top/company.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
+            integrity="sha384-fFxL8wXRpg9gVqGpY+URMtLr3fLL0WBbo4NBQ+IWwMDYjIjI5VQ46XlJm5+BUlXJ"
+            crossorigin="anonymous"
+        />
+    </head>
+</html>
+
 <body>
-<div class="title-Container">
-	<div class="title">
-		<p>
-		<h1>COMPANY</h1>
-		<h2>会社案内</h2>
-		</p>
-	</div>
-</div>
-<div class="contentCompany-container">
-	<div class="contentCompany">
-		<ul>
-			<li><h1>会社概要</h1></li>
-			<li><h3>ABNはIT技術とエンジニアの成長を通じて正解に通用するビジネスをサポートします</h3></li>
-			<li id="moreCompany_container"><a href="#" id="moreCompany">MORE →</a></li>
-		</ul>
-	</div>
-</div>
+    <div>
+        <div class="topNav">
+            <!-- Logo -->
+            <a href="home.php" class="logo"
+                ><img
+                    src="../../../storage/icon/new_logo-600x164px.png"
+                    width="200"
+            /></a>
+            <div id="hamburgerMenu"></div>
+            <!-- Hamburger Navigation Menu -->
+            <input id="menuToggle" type="checkbox" />
+            <label class="menuBtn" for="menuToggle"
+                ><span class="menuList"></span
+            ></label>
+            <!-- Navigation links (hidden by default) -->
+            <ul class="menuBox">
+                <li class="menuItem">
+                    <!-- Hamburger sub-menu -->
+                    <div tabindex="0" class="onclickMenu">
+                        COMPANY
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ビジョン</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ミッション</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >代表挨拶</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >会社概要</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        SERVICES
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >メディア事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >受託開発事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu">SES事業</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        RECRUIT
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >業務内容</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >募集要項</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >選考フロー</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >エントリー</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="menuItem" href="#">SES PARTNER</a></li>
+                <li><a class="menuItem" href="#">NEWS</a></li>
+                <li><a class="menuItem" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bodyContainer">
+        <div class="topSection">
+            <div class="contentCompanyContainer">
+                <div class="contentCompanyContainer__link">
+                    <a class="link" href="">TOP</a>
+                    <span>></span>
+                    <a class="link" href="">SERVICE</a>
+                </div>
+                <div class="contentCompanyContainer__top">
+                    <div class="contentCompanyContainer__top__left">会社</div>
+                    <div class="contentCompanyContainer__top__middle">
+                        Company <br />
+                        Profile
+                    </div>
+                    <div class="contentCompanyContainer__top__right">概要</div>
+                </div>
+                <div class="contentCompanyContainer__bottom">
+                    <div class="contentCompanyContainer__bottom__ideal">
+                        <p class="contentCompanyContainer__bottom__ideal__text">
+                            日本と世界のカケハシをつくる
+                        </p>
+                    </div>
+                    <div class="contentCompanyContainer__bottom__desc">
+                        わたしたちは、ひとりひとりの可能性に期待しています。<br />
+                        だからこそ、今の環境をより良くしたいという人を応援し、自身のキャリアや、人生を構築するサポートをしたいのです。<br />
+                        お互いに期待し、行動できる。<br />
+                        そんな世界をつくりたいというメンバーと一緒に、わたしたちはABNというプロダクトを作っています。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mission -->
+        <div class="topSection">
+            <div class="missionTitleContainer">
+                <div class="missionTitleContainer__title">
+                    <div class="missionTitleContainer__title__comEng">
+                        Mission
+                    </div>
+                    <div class="missionTitleContainer__title__comJp">
+                        ミッション
+                    </div>
+                </div>
+            </div>
+            <div class="contentCompanyContainer">
+                <div class="contentMission">
+                    <div class="contentMission__Element__1">
+                        エンジニアのキャリアを作る
+                    </div>
+                    <div class="contentMission__Element__2">
+                        日本と世界における雇用の格差をなくす
+                    </div>
+                    <div class="contentMission__Element__3">
+                        この可能性に期待し続ける
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- message from ceo -->
+        <div class="topSection">
+            <div class="contentCeoContainer">
+                <div class="contentCeoTitle">Message From The CEO</div>
+                <div class="contentCeoContent">
+                    <div class="contentCeoContent__left">代表挨拶</div>
+                    <div class="contentCeoContent__middle">
+                        ABNは“エンジニアのキャリアをつくる”ために創業しました。<br />
+                        “エンジニアのキャリアをつくるなんて本当にできるの？“と思う方もいると思います。<br />
+                        特にSES事業では、そういった疑問を抱かれることが少なくありません。<br />
+                        確かに、SES事業は、エンジニアのキャリアを築きにくい事業の１つでもあります。<br />
+                        <br />
+                        “希望のプロジェクトに配属されない”、“多重請負でエンジニアの給与が少ない”、<br />
+                        これらはSES業界で良く聞くセリフです。<br />
+                        でもこの悪い慣習をそのままにしておいて良いのでしょうか？<br />
+                        エンジニアに限らず、人は本来、自分のキャリアを自身で築いていくことができます。<br />
+                        もちろん、エンジニアをやめることもキャリアを築く選択肢のひとつです。<br />
+                        でも、開発が好きで、エンジニアとしてのキャリアを積みたい。<br />
+                        そんな想いを持った人は多くいると思うのです。<br />
+                        そんな中で、SES企業には、“エンジニアが望む成長機会”を提供せずに、<br />
+                        収益化することだけに特化した会社もあります。<br />
+                        こういった会社は一部の会社だと思うのですが、<br />
+                        これらの会社がSES業界の悪い慣習を作っているのです。<br />
+                        <br />
+                        最近、SES企業でも、エンジニアのキャリアや給与を大切にしている会社が増えてきました。<br />
+                        ABNでも、
+                        “エンジニアのキャリアをつくる“ために営業活動をし、<br />
+                        社内環境を整え、会社を経営していく決意をしています。<br />
+                        エンジニアのキャリアをつくるために、業界の悪い慣習を変えたい、<br />
+                        そう思う方と一緒に会社を作っていけたら嬉しいです。<br />
+                    </div>
+                    <div class="contentCeoContent__right">
+                        <div class="contentCeoContent__right__img"></div>
+                        株式会社アジアンビジネスネットワーク <br />
+                        代表取締役　ブイアン　ナズムル　ホサイン
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overviewSection">
+            <div class="missionTitleContainer">
+                <div class="missionTitleContainer__title">
+                    <div class="missionTitleContainer__title__comEng">
+                        <span class="green">C</span>ompany
+                        <span class="red">O</span>verview
+                    </div>
+                    <div class="missionTitleContainer__title__comJp">
+                        会社概要
+                    </div>
+                </div>
+            </div>
+            <div class="contentOverviewContent">
+                <div class="">
+                    会社名<br />
+                    株式会社アジアンビジネスネットワーク<br />
+                    <br />
+                    事業内容<br />
+                    メディア事業/受託開発業/SES事業<br />
+                    <br />
+                    設立<br />
+                    ２０１１年１１月１５日<br />
+                    <br />
+                    主な取引先銀行<br />
+                    三菱東京UFJ銀行　みずほ銀行<br />
+                    <br />
+                    役員<br />
+                    代表取締役社長　ブイアン　ナズムル　ホサイン<br />
+                    <br />
+                    資本金<br />
+                    20,000,000円<br />
+                </div>
+                <div>
+                    沿革 <br />
+                    2011年 11月　　東京に創業 、受託開発事業を開始 <br />
+                    2014年 2月　　SES事業を開始 <br />
+                    2016年 3月　　バングラデシュ支店を設立<br />
+                    2016年 6月　　オフショア開発事業を開始<br />
+                    2019年 10月　　メディア事業を開始<br />
+                    2020年 9月　　本社を現在地に移転<br />
+                </div>
+            </div>
+        </div>
+        <div class="overviewSection">
+            <div class="contentOverview2Content">
+                <div class="">
+                    所在地 <br />
+                    〒171-0014<br />
+                    東京都豊島区池袋2-61-8 アゼリア青新ビル6F<br />
+                    <br />
+                    TEL　　　　　　　　　　 　03-6907-0883<br />
+                    FAX　　　　　　　　　　　03-6907-0884<br />
+                    労働者派遣事業　　　　　　派13-315059<br />
+                    有料職業紹介事業　　　　　13-ユ-312569<br />
+                </div>
+                <div class="abn__mao">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6477.063964819676!2d139.70545650869136!3d35.73772714015601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d3d967c4c33%3A0xb9a4f8da43f492bf!2z5qCq5byP5Lya56S-QUJO!5e0!3m2!1sja!2sjp!4v1707623347107!5m2!1sja!2sjp"
+                        width="70%"
+                        height="70%"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+            <!-- Bottom Navigation Menu -->
+            <div class="buttonBlock">
+                <div class="bottomNavBlack">
+                    <ul class="menuBlack">
+                        <li><a class="menuItem" href="#">Company</a></li>
+                        <li><a class="menuItem" href="#">Services</a></li>
+                        <li><a class="menuItem" href="#">Recruit</a></li>
+                        <li><a class="menuItem" href="#">SES Partner</a></li>
+                        <li><a class="menuItem" href="#">News</a></li>
+                        <li><a class="menuItem" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="bottomNavWhite">
+                    <ul class="menuWhite">
+                        <li>
+                            <a href="#" id="menuItemWhiteLink"
+                                >個人情報の取り扱いについて</a
+                            >
+                        </li>
+                        <li>© 2024 株式会社アジアンビジネスネットワーク</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html> 
