@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+        />
+        <meta name="description" content="A Simple Full Page Scroll" />
+        <!-- meta end -->
+
+        <!-- header css -->
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+        <link rel="stylesheet" href="../../css/common/header.css" />
+        <link rel="stylesheet" href="../../css/common/footer.css" />
+        <!-- company css -->
+        <link rel="stylesheet" href="../../css/casualInterview/entry.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
+            integrity="sha384-fFxL8wXRpg9gVqGpY+URMtLr3fLL0WBbo4NBQ+IWwMDYjIjI5VQ46XlJm5+BUlXJ"
+            crossorigin="anonymous"
+        />
+    </head>
+</html>
+
+<body>
+    <div>
+        <div class="topNav">
+            <!-- Logo -->
+            <a href="home.php" class="logo"
+                ><img
+                    src="../../../storage/icon/new_logo-600x164px.png"
+                    width="200"
+            /></a>
+            <div id="hamburgerMenu"></div>
+            <!-- Hamburger Navigation Menu -->
+            <input id="menuToggle" type="checkbox" />
+            <label class="menuBtn" for="menuToggle"
+                ><span class="menuList"></span
+            ></label>
+            <!-- Navigation links (hidden by default) -->
+            <ul class="menuBox">
+                <li class="menuItem">
+                    <!-- Hamburger sub-menu -->
+                    <div tabindex="0" class="onclickMenu">
+                        COMPANY
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ビジョン</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ミッション</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >代表挨拶</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >会社概要</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        SERVICES
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >メディア事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >受託開発事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu">SES事業</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        RECRUIT
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >業務内容</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >募集要項</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >選考フロー</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >エントリー</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="menuItem" href="#">SES PARTNER</a></li>
+                <li><a class="menuItem" href="#">NEWS</a></li>
+                <li><a class="menuItem" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="entrySection">
+        <div class="entryTitleContainer">
+            <div class="entryTitleContainer__title">
+                <div class="entryTitleContainer__title__comEng">
+                    CASUAL INTERVIEW
+                </div>
+                <div class="entryTitleContainer__title__comJp">
+                    カジュアル面談
+                </div>
+            </div>
+            <div class="">
+                <a class="link" href="">TOP</a>
+                <span>></span>
+                <a class="link" href="">RECRUIT</a>
+                <span>></span>
+                <a class="link" href="">CASUAL INTERVIEW</a>
+            </div>
+        </div>
+        <div class="entryContentContainer">
+            <div class="entryContentContainer__guid">
+                <span class="entryInputIcon__red border text-white rounded"
+                    >入力</span
+                >
+                <span>→</span>
+                <span class="entryInputIcon__green border text-white rounded"
+                    >内容確認</span
+                >
+                <span>→</span>
+                <span class="entryInputIcon__green border text-white rounded">
+                    完了
+                </span>
+            </div>
+            <div class="entryContentContainer__form">
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded">お名前</span>
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="text"
+                            placeholder="入力例：田中　太郎"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded">フリガナ</span>
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="text"
+                            placeholder="入力例：タナカ　タロウ"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded">電話番号</span>
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="text"
+                            placeholder="入力例：080-1234-1234"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded"
+                        >メールアドレス</span
+                    >
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="text"
+                            placeholder="入力例：abn@abnjp.com"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded"
+                        >メールアドレス（確認）</span
+                    >
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="text"
+                            placeholder="入力例：abn@abnjp.com"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded">履歴書</span>
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="file"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded"
+                        >職務経歴書</span
+                    >
+                    <span class="font-size14 red"></span>
+                    <span class="entryInput">
+                        <input
+                            class="entryInputChild border rounded"
+                            type="file"
+                        />
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded">希望職種</span>
+                    <span class="font-size14 red">※必須</span>
+                    <span class="entryInput">
+                        <select
+                            class="entryInputChild border rounded"
+                            name="sex"
+                        >
+                            <option value="man">---</option>
+                            <option value="man">
+                                フロントエンドエンジニア（中途）
+                            </option>
+                            <option value="woman">
+                                バックエンドエンジニア（中途）
+                            </option>
+                            <option value="man">
+                                インフラエンジニア（中途）
+                            </option>
+                            <option value="man">
+                                モバイルアプリエンジニア（中途）
+                            </option>
+                            <option value="woman">SES営業（中途）</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="entryContentContainer__form__block">
+                    <span class="entryInputTitle border rounded">自由項目</span>
+                    <span class="font-size14 red"></span>
+                    <span class="entryInput">
+                        <textarea
+                            class="entryTextarea border rounded"
+                            type="text"
+                        ></textarea>
+                    </span>
+                </div>
+            </div>
+            <div class="entryContentContainer__termsOfUse">
+                株式会社アジアンビジネスネットワークは、<br />
+                業務上当社が取り扱う全ての個人情報の重要性を良く認識し、<br />
+                弊社は個人情報の保護に関する法律を遵守し個人情報を取扱う事業者としてなすべきことについて次の方針を掲げます。<br />
+                <br />
+                a)
+                弊社は、システム開発事業及びその付帯事業で取扱う個人情報、並びに雇用等において取扱う個人情報の特定された利用目的の範
+                囲の中で個人情報の適切な取得・利用を行い、利用目的の達成に必要な範囲を超えた個人情報の取扱い(目的外利用)を行わないこと及
+                びそのための措置を講じます。<br />
+                <br />
+                b)
+                弊社は個人情報の取扱いに関する法令、国が定める指針及びその他の規範を遵守します。<br />
+                <br />
+                c)
+                弊社は個人情報への不正アクセス、個人情報の漏えい、滅失又はき損の防止を行い、<br />
+                　
+                不適切な事項については是正を行うなどの内部規程を定め、個人情報を保護します。<br />
+                <br />
+                d)
+                弊社は個人情報の取扱いに関する苦情及び相談対応への内部規程を定め、苦情及び相談に対応します。<br />
+                <br />
+                e)
+                弊社は個人情報保護マネジメントシステム（ＰＭＳ）の継続的改善を行います。<br />
+                <br /><br />
+                2016年4月1日制定 株式会社アジアンビジネスネットワーク<br />
+                代表取締役 ブイアン ナズムル ホサイン<br />
+            </div>
+            <div class="entryContentContainer__checkBox">
+                <input type="checkbox" />
+                個人情報収集に関する注意項目に同意する。
+            </div>
+            <button class="entryContentContainer__confirmButton">確認</button>
+        </div>
+        <!-- fotters -->
+        <div class="buttonBlock">
+            <div class="bottomNavBlack">
+                <ul class="menuBlack">
+                    <li><a class="menuItem" href="#">Company</a></li>
+                    <li><a class="menuItem" href="#">Services</a></li>
+                    <li><a class="menuItem" href="#">Recruit</a></li>
+                    <li><a class="menuItem" href="#">SES Partner</a></li>
+                    <li><a class="menuItem" href="#">News</a></li>
+                    <li><a class="menuItem" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="bottomNavWhite">
+                <ul class="menuWhite">
+                    <li>
+                        <a href="#" id="menuItemWhiteLink"
+                            >個人情報の取り扱いについて</a
+                        >
+                    </li>
+                    <li>© 2024 株式会社アジアンビジネスネットワーク</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
