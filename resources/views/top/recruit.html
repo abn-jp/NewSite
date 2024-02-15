@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+        />
+        <meta name="description" content="A Simple Full Page Scroll" />
         <!-- header css -->
         <link rel="stylesheet" type="text/css" href="../../css/style.css" />
         <link rel="stylesheet" href="../../css/common/header.css" />
+        <link rel="stylesheet" href="../../css/common/footer.css" />
+
         <!-- company css -->
         <link rel="stylesheet" href="../../css/top/topCompany.css" />
         <link rel="stylesheet" href="../../css/top/topRecruit.css" />
@@ -13,206 +21,181 @@
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="../../css/common/footer.css" />
     </head>
     <body>
-        <div>
-            <div class="topNav">
-                <!-- Logo -->
-                <a href="home.php" class="logo"
-                    ><img
-                        src="../../../storage/icon/new_logo-600x164px.png"
-                        width="200"
-                /></a>
-                <div id="hamburgerMenu"></div>
-                <!-- Hamburger Navigation Menu -->
-                <input id="menuToggle" type="checkbox" />
-                <label class="menuBtn" for="menuToggle"
-                    ><span class="menuList"></span
-                ></label>
-                <!-- Navigation links (hidden by default) -->
-                <ul class="menuBox">
-                    <li class="menuItem">
-                        <!-- Hamburger sub-menu -->
-                        <div tabindex="0" class="onclickMenu">
-                            COMPANY
-                            <ul class="onclickMenuContent">
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >ビジョン</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >ミッション</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >代表挨拶</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >会社概要</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menuItem">
-                        <div tabindex="0" class="onclickMenu">
-                            SERVICES
-                            <ul class="onclickMenuContent">
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >メディア事業</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >受託開発事業</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >SES事業</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="menuItem">
-                        <div tabindex="0" class="onclickMenu">
-                            RECRUIT
-                            <ul class="onclickMenuContent">
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >業務内容</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >募集要項</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >選考フロー</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#" class="hamburgerSubMenu"
-                                        >エントリー</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a class="menuItem" href="#">SES PARTNER</a></li>
-                    <li><a class="menuItem" href="#">NEWS</a></li>
-                    <li><a class="menuItem" href="#">CONTACT</a></li>
-                </ul>
-            </div>
-            <!-- header end -->
-
-            <div class="bodyContainer">
-                <section class="recruitSection">
-                    <div class="recruitBg">
-                        <div class="recruitTitleContainer">
-                            <div class="recruitTitleContainer__title">
-                                <div
-                                    class="recruitTitleContainer__title__comEng"
+        <div class="topNav">
+            <!-- Logo -->
+            <a href="home.php" class="logo"
+                ><img
+                    src="../../../storage/icon/new_logo-600x164px.png"
+                    width="200"
+            /></a>
+            <div id="hamburgerMenu"></div>
+            <!-- Hamburger Navigation Menu -->
+            <input id="menuToggle" type="checkbox" />
+            <label class="menuBtn" for="menuToggle"
+                ><span class="menuList"></span
+            ></label>
+            <!-- Navigation links (hidden by default) -->
+            <ul class="menuBox">
+                <li class="menuItem">
+                    <!-- Hamburger sub-menu -->
+                    <div tabindex="0" class="onclickMenu">
+                        COMPANY
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ビジョン</a
                                 >
-                                    RECRUIT
-                                </div>
-                                <div
-                                    class="recruitTitleContainer__title__comJp"
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >ミッション</a
                                 >
-                                    採用情報
-                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >代表挨拶</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >会社概要</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        SERVICES
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >メディア事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >受託開発事業</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu">SES事業</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuItem">
+                    <div tabindex="0" class="onclickMenu">
+                        RECRUIT
+                        <ul class="onclickMenuContent">
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >業務内容</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >募集要項</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >選考フロー</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="hamburgerSubMenu"
+                                    >エントリー</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="menuItem" href="#">SES PARTNER</a></li>
+                <li><a class="menuItem" href="#">NEWS</a></li>
+                <li><a class="menuItem" href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- header end -->
+        <div class="bodyContainer">
+            <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
+            <section class="recruitTopSection">
+                <div class="recruitBg">
+                    <div class="recruitTitleContainer">
+                        <div class="recruitTitleContainer__title">
+                            <div class="recruitTitleContainer__title__comEng">
+                                RECRUIT
                             </div>
-                            <div class="">
-                                <a class="link text-light" href="">TOP</a>
-                                <span>></span>
-                                <a class="link text-light" href="">RECRUIT</a>
+                            <div class="recruitTitleContainer__title__comJp">
+                                採用情報
                             </div>
                         </div>
-                        <div class="contentRecruitContainer">
-                            <div class="contentRecruit">
-                                <ul class="test">
-                                    <li
-                                        class="contentRecruit__li contentRecruit__li__text pb-3 mx-auto"
-                                    >
-                                        <h1 class="">
-                                            日本と世界のカケハシを作る
-                                        </h1>
-                                    </li>
-                                    <li
-                                        class="contentRecruit__li border border-light mb-4 py-2 display-6 mx-auto shadow"
-                                    >
-                                        エンジニアのキャリアを作る
-                                    </li>
-                                    <li
-                                        class="contentRecruit__li border border-light mb-4 py-2 display-6 mx-auto shadow"
-                                    >
-                                        日本と世界における雇用の格差をなくす
-                                    </li>
-                                    <li
-                                        class="contentRecruit__li border border-light mb-4 py-2 display-6 mx-auto shadow"
-                                    >
-                                        この可能性に期待し続ける
-                                    </li>
-                                    <li
-                                        class="contentRecruit__li__text display-5 mb-4 mx-auto"
-                                    >
-                                        そんな世界を一緒に作る仲間を募集しています
-                                    </li>
-                                    <!-- <li class="contentRecruit__li mx-auto">
-                                        <button
-                                            type="button"
-                                            class="btn btn-danger col-4"
-                                        >
-                                            ENTRY
-                                        </button>
-                                    </li> -->
-                                </ul>
+                        <div class="">
+                            <a class="link text-light" href="">TOP</a>
+                            <span>></span>
+                            <a class="link text-light" href="">RECRUIT</a>
+                        </div>
+                    </div>
+                    <div class="contentRecruitContainer">
+                        <div class="contentRecruit">
+                            <li class="contentRecruit__li__text">
+                                <h1 class="contentRecruit__title">
+                                    日本と世界のカケハシを作る
+                                </h1>
+                            </li>
+                            <li class="contentRecruit__li">
+                                エンジニアのキャリアを作る
+                            </li>
+                            <li class="contentRecruit__li">
+                                日本と世界における雇用の格差をなくす
+                            </li>
+                            <li class="contentRecruit__li">
+                                この可能性に期待し続ける
+                            </li>
+                            <li class="contentRecruit__li__text__bottom">
+                                そんな世界を一緒に作る仲間を募集しています
+                            </li>
+                            <div class="contentRecruit__bottom">
+                                <button
+                                    type="button"
+                                    class="contentRecruit__bottom__btn btn btn-danger"
+                                >
+                                    ENTRY
+                                </button>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- messeage-section -->
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
-                        <div class="recruitTitleContainer">
-                            <div class="otherRecruitTitleContainer__title">
-                                <div
-                                    class="recruitTitleContainer__title__comEng"
-                                >
-                                    Message
-                                </div>
-                                <div
-                                    class="recruitTitleContainer__title__comJp"
-                                >
-                                    メッセージ
-                                </div>
+                </div>
+            </section>
+            <!-- messeage-section -->
+            <section class="recruitSection">
+                <div class="recruitMessageBg">
+                    <div class="recruitTitleContainer">
+                        <div class="otherRecruitTitleContainer__title">
+                            <div class="recruitTitleContainer__title__comEng">
+                                Message
+                            </div>
+                            <div class="recruitTitleContainer__title__comJp">
+                                メッセージ
                             </div>
                         </div>
-                        <div class="contentRecruitMessageContainer">
-                            <div class="contentRecruiMessage">
-                                <div class="contentRecruiMessage__LeftSide">
-                                    <img
-                                        class="contentRecruiMessage__LeftSide__img"
-                                        src="../../../storage/img/view1.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="contentRecruiMessage__RightSide">
-                                    <div class="recruitMessagetext mb-5">
-                                        わたしたちは、ひとりひとりの可能性に期待しています。<br />
-                                        だからこそ、今の環境をより良くしたいという人を応援し、<br />
-                                        自信のキャリアや、人生を構築したいのです。<br />
-                                    </div>
+                    </div>
+                    <div class="contentRecruitMessageContainer">
+                        <div class="contentRecruiMessage">
+                            <div class="contentRecruiMessage__LeftSide">
+                                <img
+                                    class="contentRecruiMessage__LeftSide__img"
+                                    src="../../../storage/img/recruit/recruite_message 2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="contentRecruiMessage__RightSide">
+                                <div class="recruitMessagetext">
+                                    わたしたちは、ひとりひとりの可能性に期待しています。<br />
+                                    だからこそ、今の環境をより良くしたいという人を応援し、<br />
+                                    自信のキャリアや、人生を構築したいのです。<br />
                                     <div
                                         class="recruitMessageComment border text-white rounded py-3 px-5 h3"
                                     >
@@ -227,293 +210,313 @@
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
-                        <div class="contentRecruitMessageContainer2">
-                            <div class="contentRecruiMessage2">
-                                <div class="contentRecruiMessage__LeftSide2">
-                                    <img
-                                        class="contentRecruiMessage__LeftSide__img"
-                                        src="../../../storage/img/view1.jpg"
-                                        alt=""
-                                        width="80%"
-                                        height="400"
-                                    />
-                                </div>
-                                <div class="contentRecruiMessage__RightSide2">
-                                    <div class="recruitMessagetext mb-5">
-                                        そんな世界を作りたいというメンバーと一緒に、<br />
-                                        わたしたちはABNというプロダクトを作っています。<br />
-                                        自信のキャリアや、人生を構築したいのです。<br />
-                                    </div>
-                                    <div class="recruitMessageImg">
-                                        <img
-                                            class="contentRecruiMessage__LeftSide__img"
-                                            src="../../../storage/img/view1.jpg"
-                                            alt=""
-                                            width="80%"
-                                            height="400"
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- jondescrtiptyion -section -->
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
-                        <div class="jobDescriptionTitleContainer">
-                            <div class="otherRecruitTitleContainer__title">
-                                <div
-                                    class="recruitTitleContainer__title__comEng"
-                                >
-                                    Job Description
-                                </div>
-                                <div
-                                    class="recruitTitleContainer__title__comJp"
-                                >
-                                    業務内容
-                                </div>
-                            </div>
-                        </div>
-                        <div class="jobDescriptionContainer">
-                            <div class="contentRecruiMessage">
-                                <div class="contentRecruiMessage__LeftSide">
-                                    <img
-                                        class="contentRecruiMessage__LeftSide__img"
-                                        src="../../../storage/img/view1.jpg"
-                                        alt=""
-                                    />
-                                </div>
-                                <div class="contentRecruiMessage__RightSide">
-                                    <div class="recruitMessagetext mb-5">
-                                        弊社では、「日本でのIT人材不足が深刻化している」という
-                                        <br />
-                                        社会課題を解決するために、さまざまな事業展開をしています。<br />
-                                    </div>
-                                    <div>
-                                        <div
-                                            class="recruitMessageComment border text-white rounded py-3 px-5 h2"
-                                        >
-                                            <span>エンジニアの</span>
-                                            <span
-                                                class="recruitMessageComment__hope"
-                                                >育成</span
-                                            >
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
+                </div>
+            </section>
+            <section class="recruitSection">
+                <div class="recruitMessageBg">
+                    <div class="contentRecruitMessageContainer2">
                         <div class="contentRecruiMessage2">
-                            <div class="contentRecruiMessage__LeftSide">
-                                <div>
-                                    <div
-                                        class="JobDescriptionComment border text-white rounded py-3 px-5 h2 mb-5"
-                                    >
-                                        <span>外国籍人材の</span>
-                                        <span
-                                            class="recruitMessageComment__hope"
-                                            >適用</span
-                                        >
-                                    </div>
-                                </div>
+                            <div class="contentRecruiMessage__LeftSide2">
                                 <img
-                                    class="JobDescription__LeftSide__img"
+                                    class="contentRecruiMessage__LeftSide__img"
                                     src="../../../storage/img/view1.jpg"
                                     alt=""
                                 />
                             </div>
                             <div class="contentRecruiMessage__RightSide2">
-                                <div class="recruitMessageImg mb-5">
+                                <div class="recruitMessagetext mb-5">
+                                    そんな世界を作りたいというメンバーと一緒に、<br />
+                                    わたしたちはABNというプロダクトを作っています。<br />
+                                    自信のキャリアや、人生を構築したいのです。<br />
+                                </div>
+                                <div class="recruitMessageImg">
                                     <img
-                                        src="../../../storage/img/view1.jpg"
+                                        class="contentRecruiMessage__LeftSide__img"
+                                        src="../../../storage/img/recruit/IMG_9170_Original 1.jpg"
                                         alt=""
                                         width="80%"
-                                        height="300"
+                                        height="400"
                                     />
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- jondescrtiptyion -section -->
+            <section class="recruitSection">
+                <div class="recruitMessageBg">
+                    <div class="jobDescriptionTitleContainer">
+                        <div class="otherRecruitTitleContainer__title">
+                            <div class="recruitTitleContainer__title__comEng">
+                                Job Description
+                            </div>
+                            <div class="recruitTitleContainer__title__comJp">
+                                業務内容
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobDescriptionContainer">
+                        <div class="contentRecruiMessage">
+                            <div class="contentRecruiMessage__LeftSide">
+                                <img
+                                    class="contentRecruiMessage__LeftSide__img"
+                                    src="../../../storage/img/recruit/IMG_7679_Original 1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="contentRecruiMessage__RightSide">
                                 <div class="recruitMessagetext mb-5">
-                                    2つの軸を持って、SES事業を中心に、<br />
-
-                                    受託開発やメディア事業などの新規事業を展開しています。<br />
-
-                                    創業第2期の弊社のコアメンバーとして、<br />
-                                    さまざまな事業で活躍するエンジニアや営業を募集しています。<br />
+                                    弊社では、「日本でのIT人材不足が深刻化している」という
+                                    <br />
+                                    社会課題を解決するために、さまざまな事業展開をしています。<br />
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- position section -->
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
-                        <div class="recruitTitleContainer">
-                            <div class="otherRecruitTitleContainer__title">
-                                <div
-                                    class="recruitTitleContainer__title__comEng"
-                                >
-                                    Posting
-                                </div>
-                                <div
-                                    class="recruitTitleContainer__title__comJp"
-                                >
-                                    募集要項
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contentRecruitMessageContainer">
-                            <div class="content__posting">
-                                <div class="posting__leftSide">
-                                    <button
-                                        type="button"
-                                        class="posting__btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
-                                        disabled
+                                <div>
+                                    <div
+                                        class="recruitMessageComment border text-white rounded py-3 px-5 h2"
                                     >
-                                        New Gradutate <br />
-                                        新卒者
-                                        <span class="posting__btn__over">
-                                            現在は募集を行っておりません
-                                        </span>
-                                    </button>
+                                        <span>エンジニアの</span>
+                                        <span
+                                            class="recruitMessageComment__hope"
+                                            >育成</span
+                                        >
+                                    </div>
                                 </div>
-                                <div class="posting__leftSide">
-                                    <button
-                                        type="button"
-                                        class="posting__btn btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recruitSection">
+                <div class="recruitMessageBg">
+                    <div class="contentRecruiMessage2">
+                        <div class="contentRecruiMessage__LeftSide">
+                            <div>
+                                <div
+                                    class="JobDescriptionComment border text-white rounded py-3 px-5 h2 mb-5"
+                                >
+                                    <span>外国籍人材の</span>
+                                    <span class="recruitMessageComment__hope"
+                                        >適用</span
                                     >
-                                        Recruitment of experience <br />
-                                        キャリア採用
-                                    </button>
                                 </div>
+                            </div>
+                            <img
+                                class="JobDescription__LeftSide__img"
+                                src="../../../storage/img/recruit/_DSC3384 1.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="contentRecruiMessage__RightSide2">
+                            <div class="recruitMessageImg mb-5">
+                                <img
+                                    class="JobDescription__RightSide__img"
+                                    src="../../../storage/img/recruit/_DSC3471.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="recruitMessagetext mb-5">
+                                2つの軸を持って、SES事業を中心に、<br />
+
+                                受託開発やメディア事業などの新規事業を展開しています。<br />
+
+                                創業第2期の弊社のコアメンバーとして、<br />
+                                さまざまな事業で活躍するエンジニアや営業を募集しています。<br />
                             </div>
                         </div>
                     </div>
-                </section>
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
-                        <div class="recruitTitleContainer">
-                            <div class="otherRecruitTitleContainer__title">
-                                <div
-                                    class="recruitTitleContainer__title__comEng"
-                                >
-                                    Selection Process
-                                </div>
-                                <div
-                                    class="recruitTitleContainer__title__comJp"
-                                >
-                                    選考過程
-                                </div>
-                            </div>
+                </div>
+            </section>
+
+            <!-- position section -->
+            <section class="recruitSection">
+                <div class="recruitTitleContainer">
+                    <div class="otherRecruitTitleContainer__title">
+                        <div class="recruitTitleContainer__title__comEng">
+                            Posting
                         </div>
-                        <div class="selectionProcessContentContainer">
-                            <div class="selectionProcessbox1">
-                                <div class="selectionProcessbox__text">
-                                    <div>STEP.1</div>
-                                    <br />
-                                    <div>Selection of</div>
-                                    <div>Documents</div>
-                                    <br />
-                                    <div>書類選考<br /></div>
-                                </div>
+                        <div class="recruitTitleContainer__title__comJp">
+                            募集要項
+                        </div>
+                    </div>
+                </div>
+                <div class="contentpostingContainer">
+                    <div class="posting__leftSide">
+                        <button
+                            type="button"
+                            class="posting__btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
+                            disabled
+                        >
+                            New Gradutate <br />
+                            新卒者
+                        </button>
+                        <span class="posting__btn__over">
+                            現在は募集を行っておりません
+                        </span>
+                    </div>
+                    <div class="posting__leftSide">
+                        <button
+                            type="button"
+                            class="posting__btn btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
+                        >
+                            Recruitment of experience <br />
+                            キャリア採用
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- selection -->
+            <section class="recruitSection">
+                <div class="recruitMessageBg">
+                    <div class="recruitTitleContainer">
+                        <div class="otherRecruitTitleContainer__title">
+                            <div class="recruitTitleContainer__title__comEng">
+                                Selection Process
                             </div>
-                            <div class="arrow"></div>
-                            <div class="selectionProcessbox2">
-                                <div class="selectionProcessbox__text">
-                                    <div>STEP.2</div>
-                                    <br />
-                                    <div>Interview</div>
-                                    <br />
-                                    <div>一次面接</div>
-                                    <br />
-                                </div>
-                            </div>
-                            <div class="arrow"></div>
-                            <div class="selectionProcessbox3">
-                                <div class="selectionProcessbox__text">
-                                    <div>STEP.3</div>
-                                    <br />
-                                    <div>Final</div>
-                                    <div>Interview</div>
-                                    <br />
-                                    <div>最終面接</div>
-                                    <br />
-                                </div>
-                            </div>
-                            <div class="arrow"></div>
-                            <div class="selectionProcessbox4">
-                                <div class="selectionProcessbox__text">
-                                    <div>STEP.4</div>
-                                    <br />
-                                    <div>Unofficial</div>
-                                    <div>Appointment</div>
-                                    <br />
-                                    <div>内定</div>
-                                    <br />
-                                </div>
+                            <div class="recruitTitleContainer__title__comJp">
+                                選考過程
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- entry section -->
-                <section class="recruitSection">
-                    <div class="recruitMessageBg">
-                        <div class="recruitTitleContainer">
-                            <div class="otherRecruitTitleContainer__title">
-                                <div
-                                    class="recruitTitleContainer__title__comEng"
-                                >
-                                    Entry
-                                </div>
-                                <div
-                                    class="recruitTitleContainer__title__comJp"
-                                >
-                                    エントリー
-                                </div>
+                    <div class="selectionProcessContentContainer">
+                        <div class="selectionProcessbox1">
+                            <div class="selectionProcessbox__text">
+                                <div>STEP.1</div>
+                                <br />
+                                <div>Selection of</div>
+                                <div>Documents</div>
+                                <br />
+                                <div>書類選考<br /></div>
                             </div>
                         </div>
-                        <div class="contentRecruitMessageContainer">
-                            <div class="entryContainer">
-                                <div class="entryContainer__LeftSide">
-                                    <div>
-                                        <div
-                                            class="entryContainer__text border text-white rounded py-3 h2 mb-5"
-                                        >
-                                            <span>Join us!</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="entryContainer__RightSide mx-auto">
-                                    <div class="mb-5">
-                                        <button
-                                            type="button"
-                                            class="entryContainer__btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
-                                        >
-                                            ENTRY <br />
-                                            フリーランス・リファラル採用
-                                        </button>
-                                    </div>
-                                    <div>
-                                        <button
-                                            type="button"
-                                            class="entryContainer__btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
-                                        >
-                                            カジュアル面談
-                                        </button>
-                                    </div>
-                                </div>
+                        <div class="">→</div>
+                        <div class="selectionProcessbox2">
+                            <div class="selectionProcessbox__text">
+                                <div>STEP.2</div>
+                                <br />
+                                <div>Interview</div>
+                                <br />
+                                <div>一次面接</div>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="selectionProcess__arrow">→</div>
+                        <div class="selectionProcessbox3">
+                            <div class="selectionProcessbox__text">
+                                <div>STEP.3</div>
+                                <br />
+                                <div>Final</div>
+                                <div>Interview</div>
+                                <br />
+                                <div>最終面接</div>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="">→</div>
+                        <div class="selectionProcessbox4">
+                            <div class="selectionProcessbox__text">
+                                <div>STEP.4</div>
+                                <br />
+                                <div>Unofficial</div>
+                                <div>Appointment</div>
+                                <br />
+                                <div>内定</div>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="contentRecruit__bottom">
+                            <button
+                                type="button"
+                                class="contentRecruit__bottom__btn btn btn-danger"
+                            >
+                                ENTRY
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- entry section -->
+            <section class="recruitSection">
+                <div class="recruitTitleContainer">
+                    <div class="otherRecruitTitleContainer__title">
+                        <div class="recruitTitleContainer__title__comEng">
+                            Entry
+                        </div>
+                        <div class="recruitTitleContainer__title__comJp">
+                            エントリー
+                        </div>
+                    </div>
+                </div>
+                <div class="entryContainer">
+                    <div class="entryContainer__LeftSide">
+                        <div>
+                            <div
+                                class="entryContainer__text border text-white rounded py-3 h2"
+                            >
+                                <span>Join us!</span>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                    <div class="entryContainer__RightSide mx-auto">
+                        <div class="mb-5">
+                            <button
+                                type="button"
+                                class="entryContainer__btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
+                            >
+                                ENTRY <br />
+                                フリーランス・リファラル採用
+                            </button>
+                        </div>
+                        <div>
+                            <button
+                                type="button"
+                                class="entryContainer__btn btn btn-outline-danger border border-4 border-danger fw-bold fs-4"
+                            >
+                                CASUAL INTERVIEW <br />
+                                カジュアル面談
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- fotters -->
+                <div class="buttonBlock">
+                    <div class="bottomNavBlack">
+                        <ul class="menuBlack">
+                            <li>
+                                <a class="footerMenuItem" href="#">Company</a>
+                            </li>
+                            <li>
+                                <a class="footerMenuItem" href="#">Services</a>
+                            </li>
+                            <li>
+                                <a class="footerMenuItem" href="#">Recruit</a>
+                            </li>
+                            <li>
+                                <a class="footerMenuItem" href="#"
+                                    >SES Partner</a
+                                >
+                            </li>
+                            <li>
+                                <a class="footerMenuItem" href="#">News</a>
+                            </li>
+                            <li>
+                                <a class="footerMenuItem" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottomNavWhite">
+                        <ul class="menuWhite">
+                            <li>
+                                <a href="#" id="menuItemWhiteLink"
+                                    >個人情報の取り扱いについて</a
+                                >
+                            </li>
+                            <li>© 2024 株式会社アジアンビジネスネットワーク</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
     </body>
 </html>
