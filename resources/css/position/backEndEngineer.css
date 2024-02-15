@@ -61,3 +61,31 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 480px) {
+    .frontendTitleContainer__comEng {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .frontendTitleContainer__comJp {
+        font-size: 12px;
+        padding-bottom: 1%;
+    }
+
+    .workingConditions__box {
+        display: block;
+        height: auto;
+    }
+
+    .workingConditions__title {
+        height: 50%;
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 10%;
+    }
+
+    .workingConditions__content {
+        width: 100%;
+    }
+}
