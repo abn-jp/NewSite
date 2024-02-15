@@ -1,3 +1,8 @@
+.frontendSection {
+    position: relative;
+    height: 100%;
+}
+
 .frontendTitleContainer {
     display: flex;
     align-items: flex-end;
@@ -26,15 +31,17 @@
 .workingConditions__box {
     display: flex;
     justify-content: center;
-    height: 112px;
+    height: auto;
 }
 
 .workingConditions__title {
-    height: 100%;
+    height: auto;
     width: 20%;
     text-align: center;
     font-size: 24px;
-    display: table;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #15a878;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-right: 5%;
@@ -50,6 +57,7 @@
 
 .workingConditions__content {
     width: 80%;
+    height: 100%;
     padding: 0px 10px;
     font-size: 18px;
     border-radius: 3px;
@@ -60,4 +68,32 @@
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .frontendTitleContainer__comEng {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .frontendTitleContainer__comJp {
+        font-size: 12px;
+        padding-bottom: 1%;
+    }
+
+    .workingConditions__box {
+        display: block;
+        height: auto;
+    }
+
+    .workingConditions__title {
+        height: 50%;
+        width: 100%;
+        font-size: 24px;
+        margin-bottom: 10%;
+    }
+
+    .workingConditions__content {
+        width: 100%;
+    }
 }
