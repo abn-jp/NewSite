@@ -1,3 +1,21 @@
+.positionsSection {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    scroll-snap-align: start;
+    z-index: -1;
+}
+
+.entryTitleContainer {
+    width: 100%;
+    margin: auto;
+    z-index: 0;
+    height: 30%;
+    padding: 80px 30px 0px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
 .positionTitleContainer__comEng {
     font-size: 48px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -14,22 +32,24 @@
 }
 
 .comtemtsContainer {
-    height: 75%;
+    height: 800px;
     width: 100%;
-    top: 50%;
-    padding: 0px 80px;
+    padding: 0px 5%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .positionsContainer {
     position: relative;
     width: 30%;
-    height: 50%;
+    height: auto;
     text-align: center;
     font-size: 18px;
-    font-family: "poppins";
+    font-family: "Poppins";
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
 }
 
 .positionsContainer #Eng {
@@ -62,25 +82,20 @@
 
 .positionsMessageImg {
     width: 70%;
-    height: 60%;
+    height: auto;
 }
 
 /* TODO メディアクエリ */
 @media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 480px) {
     .comtemtsContainer {
-        height: 100%;
-        width: 100%;
-        top: 50%;
-        padding: 0px 40px;
+        height: 800px;
     }
 
     .positionsContainer {
-        position: relative;
-        height: 150px;
-        width: 90%;
-        text-align: center;
-        font-size: 24px;
-        font-family: "poppins";
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        width: 50%;
+        height: auto;
     }
 }

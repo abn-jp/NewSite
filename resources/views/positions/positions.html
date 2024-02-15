@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- <meta> -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+        />
+        <meta name="description" content="A Simple Full Page Scroll" />
         <!-- header css -->
         <link rel="stylesheet" type="text/css" href="../../css/style.css" />
         <link rel="stylesheet" href="../../css/common/header.css" />
+        <link rel="stylesheet" href="../../css/common/footer.css" />
+
         <!-- company css -->
         <link rel="stylesheet" href="../../css/position/positions.css" />
         <link rel="stylesheet" href="../../css/top/topRecruit.css" />
@@ -120,101 +129,112 @@
                 </ul>
             </div>
             <!-- positions section -->
-            <section class="section">
-                <div class="recruitMessageBg">
-                    <!-- TODO: 共通化したい -->
-
-                    <div class="titleContainer">
-                        <div class="otherRecruitTitleContainer__title">
-                            <div class="recruitTitleContainer__title__comEng">
-                                Position
-                            </div>
-                            <div class="recruitTitleContainer__title__comJp">
-                                募集ポジション
-                            </div>
+            <section class="positionsSection">
+                <!-- TODO: 共通化したい -->
+                <div class="titleContainer">
+                    <div class="otherRecruitTitleContainer__title">
+                        <div class="recruitTitleContainer__title__comEng">
+                            Position
                         </div>
-                        <div class="">
-                            <a class="link" href="">TOP</a>
-                            <span>></span>
-                            <a class="link" href="">RECRUIT</a>
-                            <span>></span>
-                            <a class="link" href="">募集ポジション</a>
+                        <div class="recruitTitleContainer__title__comJp">
+                            募集ポジション
                         </div>
                     </div>
-                    <div
-                        class="comtemtsContainer d-flex justify-content-center flex-wrap"
-                    >
-                        <div class="positionsContainer">
-                            <img
-                                class="positionsMessageImg mb-3"
-                                src="../../../storage/img/view1.jpg"
-                                alt=""
-                            />
-                            <div class="positionsContainerTItle mb-5">
-                                <div id="Eng">Front End Engineer</div>
-                                <div id="Jpn">フロントエンドエンジニア</div>
-                            </div>
+                    <div class="">
+                        <a class="link" href="">TOP</a>
+                        <span>></span>
+                        <a class="link" href="">RECRUIT</a>
+                        <span>></span>
+                        <a class="link" href="">募集ポジション</a>
+                    </div>
+                </div>
+                <div class="comtemtsContainer">
+                    <div class="positionsContainer">
+                        <img
+                            class="positionsMessageImg"
+                            src="../../../storage/img/positions/Front Eed Engineer フロントエンドエンジニア.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="positionsContainer">
+                        <img
+                            class="positionsMessageImg"
+                            src="../../../storage/img/positions/Back Eed Engineer バックエンドエンジニア.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="positionsContainer">
+                        <img
+                            class="positionsMessageImg"
+                            src="../../../storage/img/positions/Infrastructure Engineer インフラエンジニア.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="positionsContainer">
+                        <img
+                            class="positionsMessageImg"
+                            src="../../../storage/img/positions/Mobile App Engineer モバイルアプリエンジニア.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="positionsContainer">
+                        <img
+                            class="positionsMessageImg"
+                            src="../../../storage/img/positions/UXデザイナー.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="positionsContainer">
+                        <img
+                            class="positionsMessageImg"
+                            src="../../../storage/img/positions/Corporate Business 法人営業.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="buttonBlock">
+                        <div class="bottomNavBlack">
+                            <ul class="menuBlack">
+                                <li>
+                                    <a class="footerMenuItem" href="#"
+                                        >Company</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="footerMenuItem" href="#"
+                                        >Services</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="footerMenuItem" href="#"
+                                        >Recruit</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="footerMenuItem" href="#"
+                                        >SES Partner</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="footerMenuItem" href="#">News</a>
+                                </li>
+                                <li>
+                                    <a class="footerMenuItem" href="#"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </ul>
                         </div>
-                        <div class="positionsContainer">
-                            <img
-                                class="positionsMessageImg mb-3"
-                                src="../../../storage/img/view1.jpg"
-                                alt=""
-                            />
-                            <div class="positionsContainerTItle mb-5">
-                                <div id="Eng">Back End Engineer</div>
-                                <div id="Jpn">バックエンドエンジニア</div>
-                            </div>
-                        </div>
-                        <div class="positionsContainer">
-                            <img
-                                class="positionsMessageImg mb-3"
-                                src="../../../storage/img/view1.jpg"
-                                alt=""
-                            />
-                            <div>
-                                <div id="Eng">Infrastructure Engineer</div>
-                                <div id="Jpn">インフラエンジニア</div>
-                            </div>
-                        </div>
-                        <div class="positionsContainer">
-                            <img
-                                class="positionsMessageImg mb-3"
-                                src="../../../storage/img/view1.jpg"
-                                alt=""
-                            />
-                            <div>
-                                <div id="Eng">Mobile App Engineer</div>
-                                <div id="Jpn">モバイルアプリエンジニア</div>
-                            </div>
-                        </div>
-                        <div class="positionsContainer">
-                            <img
-                                class="positionsMessageImg mb-3"
-                                src="../../../storage/img/view1.jpg"
-                                alt=""
-                            />
-                            <div>
-                                <div id="Eng">Front End Engineer</div>
-                                <div id="Jpn">フロントエンドエンジニア</div>
-                            </div>
-                            <div class="possition__btn__over">
-                                <div class="possition__btn__over__message">
-                                    現在は募集を<br />
-                                    行っておりません
-                                </div>
-                            </div>
-                        </div>
-                        <div class="positionsContainer">
-                            <img
-                                class="positionsMessageImg mb-3"
-                                src="../../../storage/img/view1.jpg"
-                                alt=""
-                            />
-                            <div>
-                                <div id="Eng">Corporate Business</div>
-                                <div id="Jpn">法人営業</div>
-                            </div>
+                        <div class="bottomNavWhite">
+                            <ul class="menuWhite">
+                                <li>
+                                    <a href="#" id="menuItemWhiteLink"
+                                        >個人情報の取り扱いについて</a
+                                    >
+                                </li>
+                                <li>
+                                    © 2024 株式会社アジアンビジネスネットワーク
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

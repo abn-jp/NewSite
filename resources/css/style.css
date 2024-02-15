@@ -112,8 +112,9 @@ body {
     position: relative;
     margin: auto;
     z-index: 0;
-    height: 120px;
-    padding: 100px 30px;
+    height: 30%;
+    padding: 80px 5% 0px;
+    margin-bottom: 5%;
     color: #000000;
 }
 
