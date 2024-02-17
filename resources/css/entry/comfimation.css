@@ -149,3 +149,49 @@
     background-color: #15a878;
     margin-bottom: 200px;
 }
+
+@media screen and (max-width: 480px) {
+    .entryContentContainer__guid {
+        margin-bottom: 50px;
+    }
+
+    .entryContentContainer__form__block {
+        display: block;
+        position: relative;
+        margin-bottom: 15%;
+    }
+
+    .entryConfirmationTitle {
+        display: block;
+        width: 100%;
+        position: static;
+        margin-bottom: 5%;
+    }
+
+    .entryContentContainer__confimation__button__block {
+        display: block;
+        width: 100%;
+    }
+
+    .entryContentContainer__completeButton {
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 150px;
+    }
+
+    .entryContentContainer__backButton {
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .entryInputIcon__red {
+        width: 25%;
+    }
+
+    .entryInputIcon__green {
+        width: 25%;
+    }
+}
