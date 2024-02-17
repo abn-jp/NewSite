@@ -63,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 5%;
+    width: 100%;
 }
 
 .entryInputTitle {
@@ -128,4 +129,46 @@
     border-radius: 5px;
     background-color: #de0d03;
     margin-bottom: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    .entryContentContainer__form__block {
+        display: block;
+        position: relative;
+        margin-bottom: 15%;
+    }
+
+    .entryInputTitle {
+        display: block;
+        width: 70%;
+        margin-bottom: 2%;
+    }
+
+    .entryTitleContainer__title__comEng {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .entryTitleContainer__title__comJp {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    .entryInputTitleAttention {
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+
+    .entryInputTitleAttention {
+        display: inline;
+    }
+
+    .entryInputIcon__red {
+        width: 25%;
+    }
+
+    .entryInputIcon__green {
+        width: 25%;
+    }
 }

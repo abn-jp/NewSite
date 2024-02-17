@@ -158,3 +158,50 @@
     justify-content: center;
     margin: 0 auto 10%;
 }
+
+@media screen and (max-width: 480px) {
+    .entryContentContainer__guid {
+        margin-bottom: 50px;
+    }
+
+    .completionContentContainer__info {
+        width: 100%;
+    }
+
+    .entryTitleContainer__title__comEng {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .entryTitleContainer__title__comJp {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    .entryContentContainer__confimation__button__block {
+        display: block;
+        width: 100%;
+    }
+
+    .entryContentContainer__completeButton {
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 150px;
+    }
+
+    .entryContentContainer__backButton {
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .entryInputIcon__red {
+        width: 25%;
+    }
+
+    .entryInputIcon__green {
+        width: 25%;
+    }
+}
