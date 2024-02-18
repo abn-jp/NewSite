@@ -49,14 +49,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     scroll-snap-align: start;
+    position: relative;
 }
 
 .serviceTitleContainer {
     width: 100%;
     margin: auto;
     z-index: 0;
-    height: 20%;
-    padding: 8% 30px 0%;
+    height: auto;
+    padding: 80px 5% 0px;
     color: #000000;
 }
 
@@ -94,6 +95,12 @@
     padding-bottom: 8px;
 }
 
+.systemEngineeringServiceTittle__comEng {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 40px;
+}
+
 .serviceTitleContainer .contentService ul {
     list-style-type: none;
     position: absolute;
@@ -112,7 +119,7 @@
     width: 100%;
     margin: auto;
     z-index: 0;
-    height: 60%;
+    height: 100%;
     color: white;
     position: relative;
 }
@@ -218,4 +225,59 @@
     margin: auto;
     z-index: 0;
     height: 50%;
+}
+
+@media screen and (max-width: 480px) {
+    .contentServiceBusiness {
+        display: block;
+        position: static;
+    }
+
+    .serviceTitleContainer__title {
+        display: block;
+    }
+
+    .serviceTitleContainer__title__comEng {
+        font-size: 28px;
+    }
+
+    .serviceTitleContainer__title__comJp {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .systemEngineeringServiceTittle__comEng {
+        font-size: 22px;
+        margin-right: 0px;
+    }
+
+    .contentServiceBusiness__Element__1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contentServiceBusiness__Element__2 {
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .contentServiceBusiness__Element__3 {
+        width: 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .contentServiceBusiness__Element__img {
+        width: 60%;
+    }
+
+    .contentService__text {
+        font-size: 16px !important;
+        text-align: left;
+    }
+
+    .contentServiceLastContainer {
+        margin: auto;
+    }
 }
